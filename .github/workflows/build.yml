@@ -103,7 +103,7 @@ jobs:
         if: failure()
         run: |
           grep -hE "error:|Error |undefined reference|Undefined symbol|CMake Error" core-*.log 2>/dev/null \
-            | sort -u | head -60 | sed 's/^/::error::core /' || true
+            | sort -u | head -120 | sed 's/^/::error::core /' || true
 
   release:
     name: Apps with emulator core

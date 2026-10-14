@@ -55,6 +55,13 @@ COMMON_ARGS=(
     -DEKA2L1_ENABLE_DISCORD_RICH_PRESENCE=OFF
     -DHALCYON_FFMPEG_DIR="${ROOT}/core/out/ffmpeg/${PLATFORM}"
     -DCMAKE_POLICY_VERSION_MINIMUM=3.5
+    # The iOS port defines FMT_USE_CONSTEVAL=0 for Xcode 26 and fmt 10 defines it again;
+    # harmless, but Dynarmic's strict flags and precompiled headers made it fatal.
+    -DDYNARMIC_WARNINGS_AS_ERRORS=OFF
+    -DDYNARMIC_FATAL_ERRORS=OFF
+    -DDYNARMIC_USE_PRECOMPILED_HEADERS=OFF
+    -DCMAKE_C_FLAGS="-Wno-macro-redefined"
+    -DCMAKE_CXX_FLAGS="-Wno-macro-redefined"
 )
 
 case "${PLATFORM}" in
@@ -76,7 +83,8 @@ case "${PLATFORM}" in
 esac
 
 # ---- Build -------------------------------------------------------------------
-"${CMAKE}" --build "${BUILD}" --target "${TARGET}" -j"${JOBS}"
+# -k 0: keep going after a failure so one CI run reports every error, not just the first.
+"${CMAKE}" --build "${BUILD}" --target "${TARGET}" -j"${JOBS}" -- -k 0
 
 # ---- Package -----------------------------------------------------------------
 rm -rf "${OUT}"
