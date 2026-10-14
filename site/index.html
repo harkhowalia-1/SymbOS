@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Halcyon · Symbian apps on iPhone, iPad and Mac</title>
+  <meta name="description" content="Halcyon runs Symbian^3 and Belle apps on iPhone, iPad and Mac from an iPhone-style home screen. Free and open source, built on EKA2L1.">
+  <meta name="theme-color" content="#332b7a">
+  <link rel="icon" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#332b7a"/><stop offset=".55" stop-color="#295c9e"/><stop offset="1" stop-color="#45a89e"/>
+      </linearGradient>
+    </defs>
+    <symbol id="i-phone" viewBox="0 0 32 32"><rect x="9" y="3" width="14" height="26" rx="3.5" fill="none" stroke="url(#g)" stroke-width="2.4"/><rect x="13" y="24.5" width="6" height="1.8" rx=".9" fill="#295c9e"/></symbol>
+    <symbol id="i-mac" viewBox="0 0 32 32"><rect x="5" y="6" width="22" height="15" rx="2.5" fill="none" stroke="url(#g)" stroke-width="2.4"/><path d="M2.5 25.5h27" stroke="#295c9e" stroke-width="2.6" stroke-linecap="round"/></symbol>
+    <symbol id="i-book" viewBox="0 0 32 32"><path d="M5 7.5c4-1.6 7.5-1.2 11 1.2 3.5-2.4 7-2.8 11-1.2v17c-4-1.6-7.5-1.2-11 1.2-3.5-2.4-7-2.8-11-1.2z" fill="none" stroke="url(#g)" stroke-width="2.2" stroke-linejoin="round"/><path d="M16 8.7v17" stroke="#295c9e" stroke-width="2"/></symbol>
+    <symbol id="i-bolt" viewBox="0 0 32 32"><path d="M18.5 3 7.5 18h8l-2 11 11-15h-8z" fill="url(#g)"/></symbol>
+    <symbol id="i-chip" viewBox="0 0 32 32"><rect x="8" y="8" width="16" height="16" rx="3" fill="none" stroke="url(#g)" stroke-width="2.4"/><rect x="12.5" y="12.5" width="7" height="7" rx="1.5" fill="#45a89e"/><path d="M12 4v4M16 4v4M20 4v4M12 24v4M16 24v4M20 24v4M4 12h4M4 16h4M4 20h4M24 12h4M24 16h4M24 20h4" stroke="#295c9e" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="i-shortcut" viewBox="0 0 32 32"><rect x="4.5" y="4.5" width="23" height="23" rx="6" fill="none" stroke="url(#g)" stroke-width="2.4"/><path d="M12 20 20 12M14 12h6v6" fill="none" stroke="#295c9e" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-widgets" viewBox="0 0 32 32"><rect x="4" y="4" width="11" height="11" rx="3" fill="#332b7a"/><rect x="17" y="4" width="11" height="11" rx="3" fill="#295c9e"/><rect x="4" y="17" width="11" height="11" rx="3" fill="#295c9e"/><rect x="17" y="17" width="11" height="11" rx="3" fill="#45a89e"/></symbol>
+    <symbol id="i-code" viewBox="0 0 32 32"><path d="m11 9-7 7 7 7M21 9l7 7-7 7" fill="none" stroke="url(#g)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-check" viewBox="0 0 32 32"><circle cx="16" cy="16" r="12" fill="none" stroke="url(#g)" stroke-width="2.4"/><path d="m10.5 16.5 4 4 7-8" fill="none" stroke="#45a89e" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-box" viewBox="0 0 32 32"><path d="M16 3.5 27 9v14l-11 5.5L5 23V9z" fill="none" stroke="url(#g)" stroke-width="2.2" stroke-linejoin="round"/><path d="M5 9l11 5.5L27 9M16 14.5V28" fill="none" stroke="#295c9e" stroke-width="2"/></symbol>
+    <symbol id="i-link" viewBox="0 0 32 32"><path d="M13.5 18.5a5 5 0 0 0 7 0l4-4a5 5 0 0 0-7-7l-1.5 1.5M18.5 13.5a5 5 0 0 0-7 0l-4 4a5 5 0 0 0 7 7l1.5-1.5" fill="none" stroke="url(#g)" stroke-width="2.4" stroke-linecap="round"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></symbol>
+    <symbol id="i-more" viewBox="0 0 24 24"><circle cx="6" cy="12" r="1.8" fill="currentColor"/><circle cx="12" cy="12" r="1.8" fill="currentColor"/><circle cx="18" cy="12" r="1.8" fill="currentColor"/></symbol>
+    <symbol id="i-dl" viewBox="0 0 24 24"><path d="M12 4v11m-5-5 5 5 5-5M5 20h14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </svg>
+
+  <header class="wrap site-header">
+    <a class="brand" href="./"><img src="assets/icon-512.png" alt="">Halcyon</a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="guide.html">Guide</a>
+      <a href="#status">Status</a>
+      <a href="https://github.com/__REPO__">Source</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="wrap hero">
+      <div>
+        <h1>Symbian apps, on a home screen that feels like your iPhone.</h1>
+        <p class="lede">Halcyon runs Symbian^3 and Belle apps and games on iPhone, iPad and Mac. Install a .sis file with the + button, and it lands on the home screen next to the phone's own apps, ready to open.</p>
+        <div class="downloads">
+          <a class="button primary" id="dl-ipa" href="https://github.com/__REPO__/releases/latest">
+            <svg aria-hidden="true"><use href="#i-dl"/></svg>Download for iPhone and iPad
+          </a>
+          <a class="button secondary" id="dl-dmg" href="https://github.com/__REPO__/releases/latest">
+            <svg aria-hidden="true"><use href="#i-dl"/></svg>Download for Mac
+          </a>
+        </div>
+        <p class="release-line" id="release-line">The iPhone app installs with SideStore or AltStore. The Mac app needs Apple silicon.</p>
+      </div>
+
+      <div class="phone" aria-label="Halcyon's home screen. Each icon opens a part of this site.">
+        <div class="screen">
+          <div class="island" aria-hidden="true"></div>
+          <div class="status" aria-hidden="true">
+            <span class="clock" id="clock">9:41</span>
+            <span class="icons">
+              <svg viewBox="0 0 18 12"><path d="M1 9h2v3H1zM5 6h2v6H5zM9 3h2v9H9zM13 0h2v12h-2z" fill="#fff"/></svg>
+              <svg viewBox="0 0 26 12"><rect x=".5" y=".5" width="22" height="11" rx="3" fill="none" stroke="#fff" opacity=".6"/><rect x="2" y="2" width="16" height="8" rx="1.6" fill="#fff"/><rect x="23.5" y="4" width="1.8" height="4" rx=".9" fill="#fff" opacity=".6"/></svg>
+            </span>
+          </div>
+
+          <div class="home-top">
+            <button class="round plus" type="button" id="plus" aria-label="What the + button does" aria-controls="sheet">
+              <svg aria-hidden="true"><use href="#i-plus"/></svg>
+            </button>
+            <a class="round more" href="guide.html#start" aria-label="Guide">
+              <svg aria-hidden="true"><use href="#i-more"/></svg>
+            </a>
+          </div>
+
+          <ul class="grid">
+            <li><a class="app" id="tile-ipa" href="https://github.com/__REPO__/releases/latest"><span class="tile"><svg aria-hidden="true"><use href="#i-phone"/></svg></span>iPhone</a></li>
+            <li><a class="app" id="tile-dmg" href="https://github.com/__REPO__/releases/latest"><span class="tile"><svg aria-hidden="true"><use href="#i-mac"/></svg></span>Mac</a></li>
+            <li><a class="app" href="guide.html#firmware"><span class="tile"><svg aria-hidden="true"><use href="#i-chip"/></svg></span>Firmware</a></li>
+            <li><a class="app" href="guide.html#jit"><span class="tile"><svg aria-hidden="true"><use href="#i-bolt"/></svg></span>JIT</a></li>
+            <li><a class="app" href="guide.html#shortcuts"><span class="tile"><svg aria-hidden="true"><use href="#i-shortcut"/></svg></span>Shortcuts</a></li>
+            <li><a class="app" href="guide.html#widgets"><span class="tile"><svg aria-hidden="true"><use href="#i-widgets"/></svg></span>Widgets</a></li>
+            <li><a class="app" href="guide.html#iphone"><span class="tile"><svg aria-hidden="true"><use href="#i-box"/></svg></span>Install</a></li>
+            <li><a class="app" href="#status"><span class="tile"><svg aria-hidden="true"><use href="#i-check"/></svg></span>Status</a></li>
+          </ul>
+
+          <div class="dock">
+            <a class="app" href="guide.html"><span class="tile"><svg aria-hidden="true"><use href="#i-book"/></svg></span><span class="name">Guide</span></a>
+            <a class="app" href="apps.json"><span class="tile"><svg aria-hidden="true"><use href="#i-link"/></svg></span><span class="name">SideStore and AltStore source</span></a>
+            <a class="app" href="https://github.com/__REPO__"><span class="tile"><svg aria-hidden="true"><use href="#i-code"/></svg></span><span class="name">Source code</span></a>
+            <a class="app" href="https://github.com/__REPO__/releases"><span class="tile"><svg aria-hidden="true"><use href="#i-box"/></svg></span><span class="name">All releases</span></a>
+          </div>
+
+          <div class="sheet" id="sheet" role="dialog" aria-modal="false" aria-labelledby="sheet-title" data-open="false" hidden>
+            <h3 id="sheet-title">The + button installs apps</h3>
+            <p>In Halcyon, + opens the file picker. Choose a .sis or .sisx file and the app installs into the emulated phone, then appears on the next free spot on the home screen.</p>
+            <button class="close" type="button" id="sheet-close">Got it</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="wrap">
+        <h2>What it does</h2>
+        <p class="intro">Like running Windows apps on a Mac with Parallels: the phone runs underneath, and each app feels like it belongs on your device.</p>
+        <div class="features">
+          <div class="feature">
+            <h3><svg aria-hidden="true"><use href="#i-phone"/></svg>A real home screen</h3>
+            <p>Pages, a dock, drag to rearrange and long-press menus. Icons come from your phone's firmware, so Clock, Calendar and Messaging look the way they did.</p>
+          </div>
+          <div class="feature">
+            <h3><svg aria-hidden="true"><use href="#i-shortcut"/></svg>Icons on your iPhone and Mac</h3>
+            <p>Put any Symbian app on the iPhone Home Screen, or make it a Mac app in Launchpad and the Dock. Tapping it opens straight into that app.</p>
+          </div>
+          <div class="feature">
+            <h3><svg aria-hidden="true"><use href="#i-widgets"/></svg>Widgets and Spotlight</h3>
+            <p>A phone clock, your dock apps and one-tap app widgets. Installed Symbian apps show up in Spotlight, Siri and the Shortcuts app.</p>
+          </div>
+          <div class="feature">
+            <h3><svg aria-hidden="true"><use href="#i-bolt"/></svg>JIT when you want speed</h3>
+            <p>The Mac app always runs the Dynarmic JIT. On iPhone, launch Halcyon from StikDebug to switch from the interpreter to JIT.</p>
+          </div>
+          <div class="feature">
+            <h3><svg aria-hidden="true"><use href="#i-chip"/></svg>Full Symbian mode</h3>
+            <p>Prefer the whole phone? One setting hides the home screen and gives the emulated phone the entire window.</p>
+          </div>
+          <div class="feature">
+            <h3><svg aria-hidden="true"><use href="#i-code"/></svg>Free and open source</h3>
+            <p>GPLv3, built on the EKA2L1 emulator. No accounts, no tracking, and nothing leaves your device.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="install">
+      <div class="wrap">
+        <h2>Get started</h2>
+        <ol class="steps">
+          <li>
+            <div>
+              <h3>Dump your phone's firmware</h3>
+              <p>Halcyon needs the ROM and RPKG from a Symbian phone you own. The <a href="guide.html#firmware">guide</a> shows how. Halcyon never includes or downloads Nokia software.</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h3>Install Halcyon</h3>
+              <p>On iPhone or iPad, add the <a href="apps.json">source</a> to SideStore or AltStore, or install the IPA directly. On a Mac, open the DMG and drag Halcyon to Applications.</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h3>Add the firmware</h3>
+              <p>On first launch, choose the ROM and RPKG files. The phone boots and its own apps fill the home screen.</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h3>Install your apps</h3>
+              <p>Tap + and pick .sis or .sisx files, or use Open in Halcyon from Files, Safari or Mail.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="status">
+      <div class="wrap">
+        <h2>What works today</h2>
+        <p class="intro">This is an early release. Here is where things stand.</p>
+        <table class="status-table">
+          <thead><tr><th scope="col">Feature</th><th scope="col">State</th><th scope="col">Notes</th></tr></thead>
+          <tbody>
+            <tr><td>Symbian^3 and Belle games</td><td class="state yes">Works</td><td>Most game libraries are supported by EKA2L1.</td></tr>
+            <tr><td>Symbian^3 and Belle apps</td><td class="state partial">Partial</td><td>EKA2L1 supports a limited set of applications; system apps vary by firmware.</td></tr>
+            <tr><td>Home screen, installs, uninstalls</td><td class="state yes">Works</td><td>Icons from your firmware and packages.</td></tr>
+            <tr><td>Typing in Symbian apps</td><td class="state yes">Works</td><td>Text dialogs open the iPhone or Mac keyboard.</td></tr>
+            <tr><td>Icons on the iPhone Home Screen</td><td class="state yes">Works</td><td>Via a web-clip profile or the Shortcuts app.</td></tr>
+            <tr><td>Mac launcher apps</td><td class="state yes">Works</td><td>Created in ~/Applications, pinnable to the Dock.</td></tr>
+            <tr><td>Several Symbian apps open at once</td><td class="state partial">Partial</td><td>One app runs at a time; switching restarts the phone in the background.</td></tr>
+            <tr><td>Full Symbian mode</td><td class="state partial">Experimental</td><td>Depends on the firmware's own launcher starting.</td></tr>
+            <tr><td>Photos, Music and Contacts bridges</td><td class="state no">Planned</td><td>Use the E: drive in the Files app or Finder for now.</td></tr>
+            <tr><td>Intel Macs</td><td class="state no">Not yet</td><td>The Mac build is Apple silicon only.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap site-footer">
+    <p>Halcyon is free software under the GNU GPL v3, built on <a href="https://github.com/EKA2L1/EKA2L1">EKA2L1</a> and its <a href="https://github.com/mtwm1234/EKA2L1_IOS">iOS port</a>. It is not affiliated with Nokia, HMD Global, Accenture or Apple. Symbian, Nokia, iPhone and Mac are trademarks of their owners. You must supply your own firmware and apps.</p>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+[submodule "external/eka2l1"]
+	path = external/eka2l1
+	url = https://github.com/mtwm1234/EKA2L1_IOS.git
