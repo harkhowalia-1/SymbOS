@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Guide · Halcyon</title>
+  <meta name="description" content="Set up Halcyon: dump firmware, install on iPhone, iPad and Mac, enable JIT, add Symbian apps to your Home Screen.">
+  <meta name="theme-color" content="#332b7a">
+  <link rel="icon" href="assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="wrap site-header">
+    <a class="brand" href="./"><img src="assets/icon-512.png" alt="">Halcyon</a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="./#install">Download</a>
+      <a href="./#status">Status</a>
+      <a href="https://github.com/__REPO__">Source</a>
+    </nav>
+  </header>
+
+  <main class="wrap guide">
+    <nav class="toc" aria-label="Guide sections">
+      <ol>
+        <li><a href="#start">Overview</a></li>
+        <li><a href="#firmware">Firmware</a></li>
+        <li><a href="#iphone">iPhone and iPad</a></li>
+        <li><a href="#jit">JIT</a></li>
+        <li><a href="#mac">Mac</a></li>
+        <li><a href="#apps">Installing apps</a></li>
+        <li><a href="#shortcuts">Home Screen icons</a></li>
+        <li><a href="#widgets">Widgets and Spotlight</a></li>
+        <li><a href="#full">Full Symbian mode</a></li>
+        <li><a href="#trouble">Troubleshooting</a></li>
+        <li><a href="#build">Building it yourself</a></li>
+        <li><a href="#legal">Legal</a></li>
+      </ol>
+    </nav>
+
+    <article>
+      <section id="start">
+        <h1>Guide</h1>
+        <p>Halcyon runs the software from a Symbian phone (Symbian^3 and Belle, like the Nokia N8) inside an app that looks like an iPhone home screen. You bring two things: the firmware from your own phone, and the apps you want to run as .sis or .sisx files.</p>
+        <p>Underneath is <a href="https://github.com/EKA2L1/EKA2L1">EKA2L1</a>, an open-source Symbian emulator. Games run best; productivity and system apps depend on how far EKA2L1 supports them.</p>
+      </section>
+
+      <section id="firmware">
+        <h2>Get firmware from your phone</h2>
+        <p>Firmware is Nokia's copyrighted software, so Halcyon cannot include or download it. You dump it once from a phone you own:</p>
+        <ol>
+          <li>Hack the phone so it can run unsigned apps (for Symbian^3 and Belle phones the usual route is Norton Hack or HelloOX).</li>
+          <li>Install <a href="https://github.com/eka2l1/dumber">Dumber</a> on the phone, open it, and choose <em>Dump RPKG</em> from the Options menu. You get an <code>.rpkg</code> file (the phone's Z: drive).</li>
+          <li>With Dumber, dump the ROM as well. You get a <code>.ROM</code> file.</li>
+          <li>Copy both files to your iPhone (Files app, AirDrop or iCloud Drive) or Mac.</li>
+        </ol>
+        <p>The <a href="https://eka2l1.miraheze.org/wiki/Main_Page">EKA2L1 wiki</a> has detailed dumping instructions for each phone family.</p>
+        <div class="note"><p>On first launch, Halcyon asks for the ROM and RPKG. Installing unpacks them into the app's own storage; the originals are not uploaded anywhere.</p></div>
+      </section>
+
+      <section id="iphone">
+        <h2>Install on iPhone and iPad</h2>
+        <p>Halcyon is not on the App Store. Install it with a sideloading app, which signs it with your own Apple ID. iOS 18 or later is required.</p>
+        <h3>With SideStore or AltStore (updates included)</h3>
+        <ol>
+          <li>Open SideStore or AltStore, go to Sources and add <code>__PAGES__/apps.json</code>.</li>
+          <li>Find Halcyon in the source and install it.</li>
+          <li>New releases appear as updates in the same app.</li>
+        </ol>
+        <h3>With the IPA file</h3>
+        <p>Download <code>Halcyon.ipa</code> from the <a href="https://github.com/__REPO__/releases">releases page</a> and open it with SideStore, AltStore, Sideloadly or TrollStore.</p>
+        <p>Free Apple IDs re-sign apps every 7 days; SideStore and AltStore do this for you in the background.</p>
+      </section>
+
+      <section id="jit">
+        <h2>Turn on JIT on iPhone and iPad</h2>
+        <p>Symbian apps are 32-bit ARM code and must be translated. With JIT, Halcyon translates blocks of code once and runs them at native speed; without it, the slower interpreter runs every instruction. iOS only allows JIT for sideloaded apps that were started with a debugger attached.</p>
+        <ol>
+          <li>Install <a href="https://github.com/StikDebug/StikDebug">StikDebug</a> and complete its one-time pairing.</li>
+          <li>In StikDebug, choose Enable JIT and pick Halcyon. StikDebug attaches and Halcyon opens with JIT.</li>
+          <li>In Halcyon, Settings › Performance shows <em>CPU: Dynarmic JIT</em>.</li>
+        </ol>
+        <p>Halcyon checks at every launch whether JIT is actually available and falls back to the interpreter if not, so opening it normally always works.</p>
+        <div class="note"><p>iOS 26 changed how JIT works on newer devices. If JIT fails there, update StikDebug to its newest version, which handles the iOS 26 method.</p></div>
+      </section>
+
+      <section id="mac">
+        <h2>Install on a Mac</h2>
+        <ol>
+          <li>Download <code>Halcyon.dmg</code> from the <a href="https://github.com/__REPO__/releases">releases page</a>, open it and drag Halcyon to Applications.</li>
+          <li>The first time, Control-click Halcyon and choose Open, unless the release notes say the build is notarized.</li>
+          <li>Add your firmware when asked.</li>
+        </ol>
+        <p>The Mac app needs an Apple silicon Mac and macOS 15 or later. It always runs with JIT. Use <kbd>⌘1</kbd>, <kbd>⌘2</kbd> and <kbd>⌘3</kbd> for Options, Menu and Back, the arrow keys for the navigation key, and type normally into Symbian text fields.</p>
+      </section>
+
+      <section id="apps">
+        <h2>Install Symbian apps</h2>
+        <ul>
+          <li>Tap <strong>+</strong> on the home screen and choose one or more <code>.sis</code> or <code>.sisx</code> files.</li>
+          <li>Or share a file to Halcyon from Files, Safari or Mail (Open in Halcyon). On a Mac, double-click it or use File › Install App.</li>
+          <li>New apps land on the next free spot. Touch and hold an icon for Open, Add to Dock, Add to Home Screen and Remove App.</li>
+          <li>Rearrange by dragging icons onto each other or onto the dock.</li>
+        </ul>
+        <p>Your phone's drives live in the Files app under On My iPhone › Halcyon › Halcyon › drives, or in Settings › Files › Show phone storage in Finder on a Mac. Put music, pictures and documents on drive E.</p>
+      </section>
+
+      <section id="shortcuts">
+        <h2>Put Symbian apps on your real Home Screen</h2>
+        <h3>iPhone and iPad</h3>
+        <p>Touch and hold an app in Halcyon and choose Add to iPhone Home Screen. You have two options:</p>
+        <ul>
+          <li><strong>Add icon to Home Screen</strong> creates a small configuration profile with one icon. Safari opens it; tap Allow, then install it in Settings › General › VPN & Device Management. The icon opens the app directly in Halcyon.</li>
+          <li><strong>Shortcuts app</strong>: make a shortcut with the Open Symbian App action, pick the app, then Add to Home Screen.</li>
+        </ul>
+        <h3>Mac</h3>
+        <p>Choose Add to Applications & Dock, then Create app in Applications. Halcyon makes a launcher app in <code>~/Applications/Halcyon Apps</code>, much like Parallels does for Windows apps. It appears in Launchpad and Spotlight, and you can drag it to the Dock.</p>
+        <p>Every route uses the same link, <code>halcyon://launch?uid=…</code>, which you can also use in your own automations.</p>
+      </section>
+
+      <section id="widgets">
+        <h2>Widgets and Spotlight</h2>
+        <ul>
+          <li><strong>Phone Clock</strong>: an analog clock with the date.</li>
+          <li><strong>Symbian App</strong>: one app, one tap. Edit the widget to choose which.</li>
+          <li><strong>Phone Dock</strong>: the four apps in Halcyon's dock.</li>
+          <li><strong>Control Center</strong>: an Open Symbian App control for Control Center, the Lock Screen or the Action button.</li>
+        </ul>
+        <p>Installed Symbian apps are also searchable in Spotlight and available to Siri as "Open (app) in Halcyon". Widgets are iPhone and iPad only in this release.</p>
+      </section>
+
+      <section id="full">
+        <h2>Full Symbian mode</h2>
+        <p>Settings › Full Symbian mode hides the home screen and gives the whole window to the emulated phone, with Options, Menu and Back keys below it. It is experimental: whether the phone's own launcher starts depends on the firmware and on EKA2L1's support for it.</p>
+      </section>
+
+      <section id="trouble">
+        <h2>Troubleshooting</h2>
+        <ul>
+          <li><strong>"Install firmware first"</strong>: the phone hasn't booted. Add the ROM and RPKG in Settings › Phone › Add firmware.</li>
+          <li><strong>An app installs but no icon appears</strong>: some packages add a component or data to another app rather than a new app.</li>
+          <li><strong>A game is slow on iPhone</strong>: check Settings › Performance. If it says Interpreter, start Halcyon from StikDebug.</li>
+          <li><strong>The Home Screen profile won't download</strong>: Safari must be allowed to open local addresses; try again with Halcyon in the foreground.</li>
+          <li><strong>Switching apps takes a moment</strong>: the emulator runs one Symbian app at a time and restarts the phone when you switch.</li>
+        </ul>
+        <p>Still stuck? <a href="https://github.com/__REPO__/issues">Open an issue</a> with your device, iOS or macOS version and the app's name.</p>
+      </section>
+
+      <section id="build">
+        <h2>Building it yourself</h2>
+        <p>You need a Mac with Xcode, <code>brew install xcodegen ninja</code>, and the repository with submodules.</p>
+        <ol>
+          <li><code>git clone --recursive https://github.com/__REPO__</code></li>
+          <li>Build the emulator core: <code>core/scripts/build-core.sh ios</code> and <code>core/scripts/build-core.sh macos</code>. The first run takes a while.</li>
+          <li>In <code>apple/</code>, run <code>xcodegen generate</code> and open <code>Halcyon.xcodeproj</code>.</li>
+        </ol>
+        <p>Skip step 2 to work on the interface: the apps then build against a demo core with sample apps.</p>
+      </section>
+
+      <section id="legal">
+        <h2>Legal</h2>
+        <p>Halcyon is free software, licensed under the GNU General Public License v3. Its source code, including the build scripts, is in the <a href="https://github.com/__REPO__">repository</a>. It includes EKA2L1 (GPLv3) and the libraries EKA2L1 uses, under their own licenses.</p>
+        <p>Halcyon does not include, download or link to firmware, ROMs or commercial Symbian apps. Use only firmware and software you are entitled to.</p>
+        <p>Halcyon is not affiliated with or endorsed by Nokia, HMD Global, Accenture or Apple. Symbian and Nokia are trademarks of their respective owners.</p>
+      </section>
+    </article>
+  </main>
+
+  <footer class="wrap site-footer">
+    <p>Halcyon is free software under the GNU GPL v3, built on EKA2L1.</p>
+  </footer>
+</body>
+</html>

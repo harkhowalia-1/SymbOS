@@ -1,0 +1,60 @@
+name: Website
+
+# Publishes site/ to GitHub Pages, together with an AltStore / SideStore source
+# (apps.json) generated from the latest release, so sideloaders can add the
+# source once and get updates.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site/**"
+      - ".github/workflows/pages.yml"
+  release:
+    types: [published, edited]
+  workflow_run:
+    workflows: ["Build apps"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Assemble site
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p _site
+          cp -R site/. _site/
+          rm -f _site/build_source.py
+          OWNER="${GITHUB_REPOSITORY%%/*}"
+          REPO="${GITHUB_REPOSITORY##*/}"
+          PAGES_URL="https://${OWNER,,}.github.io/${REPO}"
+          # Latest release (including pre-releases) for the AltStore / SideStore source.
+          gh api "repos/${GITHUB_REPOSITORY}/releases?per_page=10" > releases.json || echo "[]" > releases.json
+          python3 site/build_source.py releases.json "$GITHUB_REPOSITORY" "$PAGES_URL" > _site/apps.json
+          find _site -name '*.html' -o -name '*.js' | while read -r f; do
+            sed -i "s#__REPO__#${GITHUB_REPOSITORY}#g; s#__PAGES__#${PAGES_URL}#g" "$f"
+          done
+          touch _site/.nojekyll
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4

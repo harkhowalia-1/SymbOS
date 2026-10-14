@@ -1,0 +1,27 @@
+// Halcyon - settings shared by every target. Rename the app here.
+
+APP_NAME = Halcyon
+BUNDLE_ID_PREFIX = io.github.harkhowalia1.halcyon
+APP_GROUP = group.$(BUNDLE_ID_PREFIX)
+URL_SCHEME = halcyon
+REPOSITORY_URL = https:/$()/github.com/harkhowalia-1/SymbOS
+WEBSITE_URL = https:/$()/harkhowalia-1.github.io/SymbOS
+
+// Emulator core. Defaults to the mock core; core/scripts/build-core.sh writes
+// Core-ios.xcconfig / Core-macos.xcconfig to link the real one.
+HALCYON_CORE_DEFINES = HALCYON_MOCK_CORE=1
+HALCYON_CORE_HEADERS =
+HALCYON_CORE_LDFLAGS =
+HALCYON_CORE_ASSETS =
+#include? "Core-ios.xcconfig"
+#include? "Core-macos.xcconfig"
+
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) $(HALCYON_CORE_DEFINES)
+HEADER_SEARCH_PATHS = $(inherited) $(HALCYON_CORE_HEADERS)
+OTHER_LDFLAGS = $(inherited) $(HALCYON_CORE_LDFLAGS)
+
+CLANG_CXX_LANGUAGE_STANDARD = c++20
+CLANG_ENABLE_OBJC_ARC = YES
+SWIFT_VERSION = 5.0
+ENABLE_USER_SCRIPT_SANDBOXING = NO
+DEAD_CODE_STRIPPING = YES
