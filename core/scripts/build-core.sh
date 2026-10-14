@@ -71,7 +71,10 @@ case "${PLATFORM}" in
             -DCMAKE_SYSTEM_NAME=iOS \
             -DCMAKE_OSX_SYSROOT=iphoneos \
             -DCMAKE_OSX_ARCHITECTURES=arm64 \
-            -DCMAKE_OSX_DEPLOYMENT_TARGET=16.0
+            -DCMAKE_OSX_DEPLOYMENT_TARGET=16.0 \
+            -DUSE_AUDIOUNIT=0
+        # ^ cubeb's AudioUnit backend uses Mac-only CoreAudio APIs; on iOS the port
+        #   plays audio through its own RemoteIO backend instead.
         ;;
     macos)
         TARGET=halcyon_mac_bridge

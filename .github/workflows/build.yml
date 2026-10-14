@@ -59,6 +59,24 @@ jobs:
             SYMROOT="$PWD/build" CODE_SIGNING_ALLOWED=NO build 2>&1 | tee mac.log \
             || { grep -E "error:" mac.log | sort -u | head -40 | sed 's/^/::error::Mac /'; exit 1; }
 
+      # Full error lists go to the ci-logs branch (annotations stop at 10 per step).
+      - name: Publish error log
+        if: failure()
+        env:
+          TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/ci-logs" && cd "$RUNNER_TEMP/ci-logs"
+          for f in "$GITHUB_WORKSPACE"/core-*.log "$GITHUB_WORKSPACE"/apple/*.log; do
+            [ -f "$f" ] || continue
+            name="$(basename "$f" .log)"
+            grep -hE "error:|Error |Undefined symbol|undefined reference|CMake Error|ld: " "$f" | sort -u | head -400 > "$name-errors.txt" || true
+            tail -300 "$f" > "$name-tail.txt"
+          done
+          echo "run ${GITHUB_RUN_ID} job ${GITHUB_JOB} commit ${GITHUB_SHA}" > README.txt
+          git init -q -b ci-logs && git add -A
+          git -c user.name=ci -c user.email=ci@localhost commit -qm "Logs for run ${GITHUB_RUN_ID} (${GITHUB_JOB})"
+          git push -qf "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "ci-logs:ci-logs-${GITHUB_JOB}"
+
   core:
     name: Emulator core
     runs-on: macos-15
@@ -95,8 +113,9 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: core/scripts/build-core.sh ios 2>&1 | tee core-ios.log; exit ${PIPESTATUS[0]}
 
+      # Runs even when the iOS core failed, so one run reports both platforms' errors.
       - name: Build emulator core (macOS)
-        if: steps.cache.outputs.cache-hit != 'true'
+        if: ${{ !cancelled() && steps.cache.outputs.cache-hit != 'true' }}
         run: core/scripts/build-core.sh macos 2>&1 | tee core-macos.log; exit ${PIPESTATUS[0]}
 
       - name: Report core build errors
@@ -104,6 +123,24 @@ jobs:
         run: |
           grep -hE "error:|Error |undefined reference|Undefined symbol|CMake Error" core-*.log 2>/dev/null \
             | sort -u | head -120 | sed 's/^/::error::core /' || true
+
+      # Full error lists go to the ci-logs branch (annotations stop at 10 per step).
+      - name: Publish error log
+        if: failure()
+        env:
+          TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/ci-logs" && cd "$RUNNER_TEMP/ci-logs"
+          for f in "$GITHUB_WORKSPACE"/core-*.log "$GITHUB_WORKSPACE"/apple/*.log; do
+            [ -f "$f" ] || continue
+            name="$(basename "$f" .log)"
+            grep -hE "error:|Error |Undefined symbol|undefined reference|CMake Error|ld: " "$f" | sort -u | head -400 > "$name-errors.txt" || true
+            tail -300 "$f" > "$name-tail.txt"
+          done
+          echo "run ${GITHUB_RUN_ID} job ${GITHUB_JOB} commit ${GITHUB_SHA}" > README.txt
+          git init -q -b ci-logs && git add -A
+          git -c user.name=ci -c user.email=ci@localhost commit -qm "Logs for run ${GITHUB_RUN_ID} (${GITHUB_JOB})"
+          git push -qf "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "ci-logs:ci-logs-${GITHUB_JOB}"
 
   release:
     name: Apps with emulator core
@@ -158,6 +195,24 @@ jobs:
             SYMROOT="$PWD/build" MARKETING_VERSION="$VERSION" CURRENT_PROJECT_VERSION="$GITHUB_RUN_NUMBER" \
             CODE_SIGNING_ALLOWED=NO build 2>&1 | tee mac.log \
             || { grep -E "error:|Undefined symbol" mac.log | sort -u | head -60 | sed 's/^/::error::Mac /'; exit 1; }
+
+      # Full error lists go to the ci-logs branch (annotations stop at 10 per step).
+      - name: Publish error log
+        if: failure()
+        env:
+          TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/ci-logs" && cd "$RUNNER_TEMP/ci-logs"
+          for f in "$GITHUB_WORKSPACE"/core-*.log "$GITHUB_WORKSPACE"/apple/*.log; do
+            [ -f "$f" ] || continue
+            name="$(basename "$f" .log)"
+            grep -hE "error:|Error |Undefined symbol|undefined reference|CMake Error|ld: " "$f" | sort -u | head -400 > "$name-errors.txt" || true
+            tail -300 "$f" > "$name-tail.txt"
+          done
+          echo "run ${GITHUB_RUN_ID} job ${GITHUB_JOB} commit ${GITHUB_SHA}" > README.txt
+          git init -q -b ci-logs && git add -A
+          git -c user.name=ci -c user.email=ci@localhost commit -qm "Logs for run ${GITHUB_RUN_ID} (${GITHUB_JOB})"
+          git push -qf "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "ci-logs:ci-logs-${GITHUB_JOB}"
 
       # Optional: Developer ID signing + notarization when these secrets exist.
       - name: Import signing certificate
