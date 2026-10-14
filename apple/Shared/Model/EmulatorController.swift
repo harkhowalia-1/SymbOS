@@ -242,7 +242,7 @@ final class EmulatorController: ObservableObject {
     }
 
     func press(_ key: HCKey) {
-        emulator.tapKey(key)
+        emulator.tap(key)
     }
 
     // MARK: Lifecycle
