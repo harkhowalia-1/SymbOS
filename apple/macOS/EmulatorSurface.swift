@@ -1,4 +1,4 @@
-// Halcyon - SwiftUI wrapper for the emulator's OpenGL view (macOS).
+// SymbOS - SwiftUI wrapper for the emulator's OpenGL view (macOS).
 // Licensed under the GNU General Public License v3 or later.
 
 import SwiftUI

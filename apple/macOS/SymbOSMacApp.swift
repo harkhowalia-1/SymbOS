@@ -1,11 +1,11 @@
-// Halcyon - Mac app.
+// SymbOS - Mac app.
 // Licensed under the GNU General Public License v3 or later.
 
 import SwiftUI
 import AppKit
 
 @main
-struct HalcyonMacApp: App {
+struct SymbOSMacApp: App {
     @NSApplicationDelegateAdaptor(AppDelegate.self) private var appDelegate
     @StateObject private var controller = EmulatorController.shared
 

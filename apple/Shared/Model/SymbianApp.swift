@@ -1,4 +1,4 @@
-// Halcyon - an app registered in the emulated phone.
+// SymbOS - an app registered in the emulated phone.
 // Licensed under the GNU General Public License v3 or later.
 
 import Foundation

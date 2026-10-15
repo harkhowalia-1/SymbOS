@@ -1,4 +1,4 @@
-// Halcyon - installed Symbian apps as App Intents entities.
+// SymbOS - installed Symbian apps as App Intents entities.
 //
 // Compiled into the app and the widget extension. Entities are read from the
 // App Group (SharedStore), so they work without the emulator running. Being

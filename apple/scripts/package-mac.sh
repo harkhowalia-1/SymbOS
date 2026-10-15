@@ -1,7 +1,7 @@
 #!/bin/bash
 # Sign the Mac app and wrap it in a DMG.
 #
-#   apple/scripts/package-mac.sh <path/to/Halcyon.app> <output.dmg>
+#   apple/scripts/package-mac.sh <path/to/SymbOS.app> <output.dmg>
 #
 # Without secrets the app is signed ad hoc (users right-click › Open the first time).
 # With these environment variables it is signed with Developer ID and notarized,
@@ -15,7 +15,7 @@ OUTPUT="${2:?output dmg}"
 HERE="$(cd "$(dirname "$0")/.." && pwd)"
 NAME="$(basename "${APP}" .app)"
 IDENTITY="${MAC_SIGN_IDENTITY:--}"
-ENTITLEMENTS="${HERE}/macOS/Halcyon.entitlements"
+ENTITLEMENTS="${HERE}/macOS/SymbOS.entitlements"
 
 TIMESTAMP=()
 if [ "${IDENTITY}" != "-" ]; then

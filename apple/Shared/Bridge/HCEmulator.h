@@ -1,5 +1,5 @@
 /*
- * Halcyon - Objective-C face of the EKA2L1 core, used from Swift.
+ * SymbOS - Objective-C face of the EKA2L1 core, used from Swift.
  *
  * Wraps eka2l1::ios::bridge (external/eka2l1/src/emu/ios/include/ios/emu_bridge.h).
  * When the app is built without the core (no core/out/<platform>), a mock

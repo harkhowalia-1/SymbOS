@@ -1,15 +1,15 @@
-// Halcyon - getting the user's own firmware into the app with as little effort as possible.
+// SymbOS - getting the user's own firmware into the app with as little effort as possible.
 //
 // Every route ends in the Firmware Inbox folder, which is then processed the same way:
 //
-//   * Choose files / drag and drop / "Open in Halcyon" (ROM, RPKG, VPL or a .zip of them)
+//   * Choose files / drag and drop / "Open in SymbOS" (ROM, RPKG, VPL or a .zip of them)
 //   * Import from link: a URL to the user's own copy (Google Drive, Dropbox or direct)
 //   * Files the user puts in the inbox themselves (Files app on iPhone, Finder on Mac),
 //     picked up automatically whenever the app becomes active
 //
 // Processing: unzip archives, pair a ROM with its RPKG (or use a VPL set), install, then
 // move what was used into "Firmware Inbox/Installed" so it isn't installed twice.
-// Halcyon never ships or fetches firmware on its own; links always come from the user.
+// SymbOS never ships or fetches firmware on its own; links always come from the user.
 //
 // Licensed under the GNU General Public License v3 or later.
 
@@ -32,18 +32,18 @@ final class FirmwareImporter: ObservableObject {
     private var busy = false
     /// Files that failed to install this session, so they aren't retried on every activation.
     private var failedPaths: Set<String> = []
-    private let queue = DispatchQueue(label: "halcyon.firmware-import", qos: .userInitiated)
+    private let queue = DispatchQueue(label: "symbos.firmware-import", qos: .userInitiated)
 
     // MARK: Folders
 
     /// The folder users can drop firmware into. On iPhone it is visible in the Files app
-    /// (On My iPhone › Halcyon › Firmware Inbox).
+    /// (On My iPhone › SymbOS › Firmware Inbox).
     nonisolated static var inbox: URL {
         #if os(iOS)
         let base = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
         #else
         let base = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask)[0]
-            .appendingPathComponent("Halcyon", isDirectory: true)
+            .appendingPathComponent("SymbOS", isDirectory: true)
         #endif
         let url = base.appendingPathComponent("Firmware Inbox", isDirectory: true)
         try? FileManager.default.createDirectory(at: url, withIntermediateDirectories: true)
@@ -51,7 +51,7 @@ final class FirmwareImporter: ObservableObject {
         if !FileManager.default.fileExists(atPath: readme.path) {
             let text = """
             Put the firmware from your own Symbian phone in this folder: the ROM (for example SYM.ROM) \
-            and its .rpkg file, or a .zip that contains them. Halcyon installs them the next time it opens \
+            and its .rpkg file, or a .zip that contains them. SymbOS installs them the next time it opens \
             and then moves them to the Installed folder, which you can delete afterwards.
             """
             try? text.write(to: readme, atomically: true, encoding: .utf8)
@@ -65,7 +65,7 @@ final class FirmwareImporter: ObservableObject {
 
     // MARK: Entry points
 
-    /// Files chosen in the picker, dropped on the window, or opened with "Open in Halcyon".
+    /// Files chosen in the picker, dropped on the window, or opened with "Open in SymbOS".
     func importFiles(_ urls: [URL]) {
         guard !urls.isEmpty else { return }
         notice = nil
@@ -287,7 +287,7 @@ final class FirmwareImporter: ObservableObject {
         return candidate
     }
 
-    /// File types the app accepts as firmware ("Open in Halcyon", drag and drop).
+    /// File types the app accepts as firmware ("Open in SymbOS", drag and drop).
     nonisolated static func isFirmwareFile(_ url: URL) -> Bool {
         ["rom", "rpkg", "vpl", "zip"].contains(url.pathExtension.lowercased())
     }

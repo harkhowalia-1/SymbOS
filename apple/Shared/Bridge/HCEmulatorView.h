@@ -1,5 +1,5 @@
 /*
- * Halcyon - the view the emulator renders into.
+ * SymbOS - the view the emulator renders into.
  *
  * iOS: a UIView backed by a CAEAGLLayer (OpenGL ES 3).
  * macOS: an NSView the core attaches an NSOpenGLContext to.

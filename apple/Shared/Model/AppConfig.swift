@@ -1,19 +1,19 @@
-// Halcyon - build-time configuration read from Info.plist.
+// SymbOS - build-time configuration read from Info.plist.
 // Licensed under the GNU General Public License v3 or later.
 
 import Foundation
 
 enum AppConfig {
     /// Shared container used by the app, its widgets and its intents.
-    static let appGroup: String = info("HalcyonAppGroup") ?? "group.io.github.halcyon"
-    /// URL scheme for deep links, e.g. halcyon://launch?uid=0x101F4CD5
-    static let urlScheme: String = info("HalcyonURLScheme") ?? "halcyon"
+    static let appGroup: String = info("SymbOSAppGroup") ?? "group.io.github.symbos"
+    /// URL scheme for deep links, e.g. symbos://launch?uid=0x101F4CD5
+    static let urlScheme: String = info("SymbOSURLScheme") ?? "symbos"
     /// Bundle identifier of the main app (also known inside the widget extension).
-    static let appBundleID: String = info("HalcyonAppBundleID") ?? Bundle.main.bundleIdentifier ?? "io.github.halcyon"
-    static let displayName: String = info("CFBundleDisplayName") ?? info("CFBundleName") ?? "Halcyon"
+    static let appBundleID: String = info("SymbOSAppBundleID") ?? Bundle.main.bundleIdentifier ?? "io.github.symbos"
+    static let displayName: String = info("CFBundleDisplayName") ?? info("CFBundleName") ?? "SymbOS"
     static let version: String = info("CFBundleShortVersionString") ?? "0"
-    static let repositoryURL = URL(string: info("HalcyonRepositoryURL") ?? "https://github.com")!
-    static let websiteURL = URL(string: info("HalcyonWebsiteURL") ?? "https://github.com")!
+    static let repositoryURL = URL(string: info("SymbOSRepositoryURL") ?? "https://github.com")!
+    static let websiteURL = URL(string: info("SymbOSWebsiteURL") ?? "https://github.com")!
 
     /// A section of the website's guide, e.g. guide("firmware").
     static func guide(_ section: String) -> URL {

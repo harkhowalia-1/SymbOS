@@ -1,4 +1,4 @@
-// Halcyon - top-level layout.
+// SymbOS - top-level layout.
 //
 // The emulator surface is always in the view tree (the core needs it to boot and to
 // keep rendering); the home screen sits on top of it and slides away when an app is

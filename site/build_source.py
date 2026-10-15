@@ -4,14 +4,14 @@
     python3 site/build_source.py releases.json owner/repo https://owner.github.io/repo > apps.json
 
 `releases.json` is the output of `gh api repos/<owner>/<repo>/releases`. Every
-release with a Halcyon.ipa asset becomes a version; the newest is listed first.
+release with a SymbOS.ipa asset becomes a version; the newest is listed first.
 Standard library only.
 """
 import json
 import sys
 
-APP_NAME = "Halcyon"
-BUNDLE_ID = "io.github.harkhowalia1.halcyon"
+APP_NAME = "SymbOS"
+BUNDLE_ID = "io.github.harkhowalia1.symbos"
 TINT = "3d5aa8"
 
 DESCRIPTION = (

@@ -1,5 +1,5 @@
 /*
- * Halcyon - Objective-C++ wrapper around the EKA2L1 core.
+ * SymbOS - Objective-C++ wrapper around the EKA2L1 core.
  * Licensed under the GNU General Public License v3 or later.
  */
 #import "HCEmulator.h"

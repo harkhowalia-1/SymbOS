@@ -1,7 +1,7 @@
-// Halcyon - Parallels-style launcher apps for Symbian apps (Mac direct build).
+// SymbOS - Parallels-style launcher apps for Symbian apps (Mac direct build).
 //
 // Creates ~/Applications/<App Name> Apps/<Symbian app>.app: a tiny bundle whose
-// executable is a shell script that opens halcyon://launch?uid=..., with the
+// executable is a shell script that opens symbos://launch?uid=..., with the
 // Symbian icon converted to .icns. Launchpad, Spotlight and the Dock treat it like
 // any other app. Each bundle is signed ad hoc on this Mac; files we write are not
 // quarantined, so Gatekeeper lets them run.

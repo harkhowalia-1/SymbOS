@@ -1,9 +1,9 @@
-// Halcyon - home screen widgets for iPhone, iPad and Mac.
+// SymbOS - home screen widgets for iPhone, iPad and Mac.
 //
 // Symbian widget code can't run on the iOS home screen (WidgetKit shows snapshots
 // drawn by this extension and the emulator can't run in the background), so these
 // are native widgets in a Belle-inspired style. Taps open Symbian apps through the
-// halcyon:// deep link.
+// symbos:// deep link.
 //
 // Licensed under the GNU General Public License v3 or later.
 
@@ -12,7 +12,7 @@ import SwiftUI
 import AppIntents
 
 @main
-struct HalcyonWidgets: WidgetBundle {
+struct SymbOSWidgets: WidgetBundle {
     var body: some Widget {
         PhoneClockWidget()
         SymbianAppWidget()

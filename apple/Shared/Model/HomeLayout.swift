@@ -1,4 +1,4 @@
-// Halcyon - where each icon sits on the home screen.
+// SymbOS - where each icon sits on the home screen.
 // Licensed under the GNU General Public License v3 or later.
 
 import Foundation

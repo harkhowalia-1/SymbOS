@@ -1,4 +1,4 @@
-// Halcyon - deciding between the Dynarmic JIT and the dyncom interpreter.
+// SymbOS - deciding between the Dynarmic JIT and the dyncom interpreter.
 //
 // The core reads its CPU backend from config.yml ("ios-enable-jit") at boot. Booting
 // the JIT without permission to map executable memory crashes, so the choice is
@@ -39,7 +39,7 @@ enum JITSupport {
     /// StikDebug does to grant JIT to sideloaded apps.
     static var isDebuggerAttached: Bool {
         var flags: UInt32 = 0
-        let result = halcyon_csops(getpid(), 0 /* CS_OPS_STATUS */, &flags, MemoryLayout<UInt32>.size)
+        let result = symbos_csops(getpid(), 0 /* CS_OPS_STATUS */, &flags, MemoryLayout<UInt32>.size)
         return result == 0 && (flags & 0x1000_0000) != 0
     }
 
@@ -83,5 +83,5 @@ enum JITSupport {
 #if os(iOS)
 /// csops(2) is not in the public SDK headers; it is a stable syscall wrapper in libsystem.
 @_silgen_name("csops")
-private func halcyon_csops(_ pid: pid_t, _ ops: UInt32, _ useraddr: UnsafeMutableRawPointer?, _ usersize: Int) -> Int32
+private func symbos_csops(_ pid: pid_t, _ ops: UInt32, _ useraddr: UnsafeMutableRawPointer?, _ usersize: Int) -> Int32
 #endif

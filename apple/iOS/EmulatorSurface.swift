@@ -1,4 +1,4 @@
-// Halcyon - SwiftUI wrapper for the emulator's CAEAGLLayer view (iOS).
+// SymbOS - SwiftUI wrapper for the emulator's CAEAGLLayer view (iOS).
 // Licensed under the GNU General Public License v3 or later.
 
 import SwiftUI

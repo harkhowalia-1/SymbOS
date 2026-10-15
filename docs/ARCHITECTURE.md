@@ -12,7 +12,7 @@ eka2l1::ios::bridge  (external/eka2l1/src/emu/ios)   iOS port's API; same code b
 EKA2L1 core (kernel, reimplemented servers, Dynarmic JIT / dyncom interpreter, OpenGL)
 ```
 
-Extensions (widgets, App Intents) never talk to the emulator. They read `apps.json`, `layout.json` and `icons/*.png`, which the app writes to the App Group container (`SharedStore`), and they open apps with the deep link `halcyon://launch?uid=<hex UID>`.
+Extensions (widgets, App Intents) never talk to the emulator. They read `apps.json`, `layout.json` and `icons/*.png`, which the app writes to the App Group container (`SharedStore`), and they open apps with the deep link `symbos://launch?uid=<hex UID>`.
 
 ## One surface, one phone
 
@@ -39,7 +39,7 @@ The core runs one Symbian app at a time. Opening a different app calls `exit_gam
 
 - **iOS, web clip:** `WebClipInstaller` builds a `.mobileconfig` with one `com.apple.webClip.managed` payload whose URL is the deep link, serves it once from `127.0.0.1`, and opens it in Safari. Sideloaded build only: App Store guideline 5.5 restricts apps that offer configuration profiles.
 - **iOS, Shortcuts:** `OpenSymbianAppIntent` over `SymbianAppEntity`, also indexed in Spotlight.
-- **macOS:** `LauncherAppGenerator` writes `~/Applications/Halcyon Apps/<App>.app` with a shell-script executable that opens the deep link, an `.icns` made from the Symbian icon, and an ad-hoc signature.
+- **macOS:** `LauncherAppGenerator` writes `~/Applications/SymbOS Apps/<App>.app` with a shell-script executable that opens the deep link, an `.icns` made from the Symbian icon, and an ad-hoc signature.
 
 ## Next steps
 

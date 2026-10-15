@@ -1,9 +1,9 @@
-// Halcyon - settings shared by every target. Rename the app here.
+// SymbOS - settings shared by every target. Rename the app here.
 
-APP_NAME = Halcyon
-BUNDLE_ID_PREFIX = io.github.harkhowalia1.halcyon
+APP_NAME = SymbOS
+BUNDLE_ID_PREFIX = io.github.harkhowalia1.symbos
 APP_GROUP = group.$(BUNDLE_ID_PREFIX)
-URL_SCHEME = halcyon
+URL_SCHEME = symbos
 REPOSITORY_URL = https:/$()/github.com/harkhowalia-1/SymbOS
 WEBSITE_URL = https:/$()/harkhowalia-1.github.io/SymbOS
 

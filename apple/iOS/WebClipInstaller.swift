@@ -1,8 +1,8 @@
-// Halcyon - real iPhone home screen icons for Symbian apps (sideloaded build).
+// SymbOS - real iPhone home screen icons for Symbian apps (sideloaded build).
 //
 // iOS gives apps no API to place an icon on the home screen. A configuration
 // profile with a Web Clip payload can, and a web clip's URL may use a custom
-// scheme, so the icon opens halcyon://launch?uid=... directly.
+// scheme, so the icon opens symbos://launch?uid=... directly.
 //
 // Profiles must be downloaded by Safari, so we serve the .mobileconfig from a
 // one-shot web server on 127.0.0.1 for a few seconds and hand Safari its URL.

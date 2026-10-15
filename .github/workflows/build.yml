@@ -3,7 +3,7 @@ name: Build apps
 # Two jobs:
 #   shell    - fast check: both apps compile against the mock core (every push and PR).
 #   release  - builds the EKA2L1 core for iOS and macOS, links the real apps, packages
-#              Halcyon.ipa and Halcyon.dmg, and (on main) publishes them as the
+#              SymbOS.ipa and SymbOS.dmg, and (on main) publishes them as the
 #              release named in VERSION. Raise VERSION for a new release; otherwise the
 #              current release's files are replaced.
 on:
@@ -47,7 +47,7 @@ jobs:
         working-directory: apple
         run: |
           set -o pipefail
-          xcodebuild -project Halcyon.xcodeproj -target HalcyonIOS -configuration Debug -sdk iphoneos \
+          xcodebuild -project SymbOS.xcodeproj -target SymbOSIOS -configuration Debug -sdk iphoneos \
             SYMROOT="$PWD/build" CODE_SIGNING_ALLOWED=NO build 2>&1 | tee ios.log \
             || { grep -E "error:" ios.log | sort -u | head -40 | sed 's/^/::error::iOS /'; exit 1; }
 
@@ -55,7 +55,7 @@ jobs:
         working-directory: apple
         run: |
           set -o pipefail
-          xcodebuild -project Halcyon.xcodeproj -target HalcyonMac -configuration Debug \
+          xcodebuild -project SymbOS.xcodeproj -target SymbOSMac -configuration Debug \
             SYMROOT="$PWD/build" CODE_SIGNING_ALLOWED=NO build 2>&1 | tee mac.log \
             || { grep -E "error:" mac.log | sort -u | head -40 | sed 's/^/::error::Mac /'; exit 1; }
 
@@ -182,17 +182,17 @@ jobs:
         working-directory: apple
         run: |
           set -o pipefail
-          xcodebuild -project Halcyon.xcodeproj -target HalcyonIOS -configuration Release -sdk iphoneos \
+          xcodebuild -project SymbOS.xcodeproj -target SymbOSIOS -configuration Release -sdk iphoneos \
             SYMROOT="$PWD/build" MARKETING_VERSION="$VERSION" CURRENT_PROJECT_VERSION="$GITHUB_RUN_NUMBER" \
             CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" build 2>&1 | tee ios.log \
             || { grep -E "error:|Undefined symbol" ios.log | sort -u | head -60 | sed 's/^/::error::iOS /'; exit 1; }
-          scripts/package-ipa.sh "$PWD/build/Release-iphoneos" "$GITHUB_WORKSPACE/Halcyon.ipa"
+          scripts/package-ipa.sh "$PWD/build/Release-iphoneos" "$GITHUB_WORKSPACE/SymbOS.ipa"
 
       - name: Build Mac app
         working-directory: apple
         run: |
           set -o pipefail
-          xcodebuild -project Halcyon.xcodeproj -target HalcyonMac -configuration Release \
+          xcodebuild -project SymbOS.xcodeproj -target SymbOSMac -configuration Release \
             SYMROOT="$PWD/build" MARKETING_VERSION="$VERSION" CURRENT_PROJECT_VERSION="$GITHUB_RUN_NUMBER" \
             CODE_SIGNING_ALLOWED=NO build 2>&1 | tee mac.log \
             || { grep -E "error:|Undefined symbol" mac.log | sort -u | head -60 | sed 's/^/::error::Mac /'; exit 1; }
@@ -237,14 +237,14 @@ jobs:
           NOTARY_APPLE_ID: ${{ secrets.NOTARY_APPLE_ID }}
           NOTARY_TEAM_ID: ${{ secrets.NOTARY_TEAM_ID }}
           NOTARY_PASSWORD: ${{ secrets.NOTARY_PASSWORD }}
-        run: scripts/package-mac.sh "$PWD/build/Release/Halcyon.app" "$GITHUB_WORKSPACE/Halcyon.dmg"
+        run: scripts/package-mac.sh "$PWD/build/Release/SymbOS.app" "$GITHUB_WORKSPACE/SymbOS.dmg"
 
       - uses: actions/upload-artifact@v4
         with:
-          name: Halcyon-${{ env.VERSION }}
+          name: SymbOS-${{ env.VERSION }}
           path: |
-            Halcyon.ipa
-            Halcyon.dmg
+            SymbOS.ipa
+            SymbOS.dmg
 
       - name: Publish release
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
@@ -252,16 +252,16 @@ jobs:
         with:
           tag_name: v${{ env.VERSION }}
           target_commitish: ${{ github.sha }}
-          name: Halcyon ${{ env.VERSION }}
+          name: SymbOS ${{ env.VERSION }}
           prerelease: ${{ startsWith(env.VERSION, '0.') }}
           make_latest: true
           overwrite_files: true
           generate_release_notes: true
           body: |
-            **iPhone and iPad:** install `Halcyon.ipa` with SideStore, AltStore or Sideloadly, or add the source from the website. For JIT, launch it from StikDebug.
-            **Mac (Apple silicon):** open `Halcyon.dmg` and drag Halcyon to Applications.
+            **iPhone and iPad:** install `SymbOS.ipa` with SideStore, AltStore or Sideloadly, or add the source from the website. For JIT, launch it from StikDebug.
+            **Mac (Apple silicon):** open `SymbOS.dmg` and drag SymbOS to Applications.
 
             You need firmware dumped from your own Symbian phone. See the guide on the website.
           files: |
-            Halcyon.ipa
-            Halcyon.dmg
+            SymbOS.ipa
+            SymbOS.dmg

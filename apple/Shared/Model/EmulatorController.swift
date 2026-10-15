@@ -1,4 +1,4 @@
-// Halcyon - owns the emulated phone: boot, app list, installs, launching, dialogs.
+// SymbOS - owns the emulated phone: boot, app list, installs, launching, dialogs.
 // Licensed under the GNU General Public License v3 or later.
 
 import Foundation
@@ -60,7 +60,7 @@ final class EmulatorController: ObservableObject {
     private var pendingLaunch: UInt32?
     private var iconImages: [UInt32: CGImage] = [:]
     private var fpsTimer: Timer?
-    private let work = DispatchQueue(label: "halcyon.emulator", qos: .userInitiated)
+    private let work = DispatchQueue(label: "symbos.emulator", qos: .userInitiated)
 
     var isMock: Bool { emulator.isMock }
 
@@ -71,7 +71,7 @@ final class EmulatorController: ObservableObject {
         #else
         let base = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask)[0]
         #endif
-        return base.appendingPathComponent("Halcyon", isDirectory: true)
+        return base.appendingPathComponent("SymbOS", isDirectory: true)
     }
 
     private init() {

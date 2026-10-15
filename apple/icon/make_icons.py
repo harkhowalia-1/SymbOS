@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Draw Halcyon's app icon (an original design) and write every size the
+"""Draw SymbOS's app icon (an original design) and write every size the
 asset catalogs and the website need.
 
     python3 apple/icon/make_icons.py

@@ -1,4 +1,4 @@
-// Halcyon - put a Symbian app on the real iPhone home screen or in the Mac's
+// SymbOS - put a Symbian app on the real iPhone home screen or in the Mac's
 // Applications folder and Dock. Each route opens the same deep link.
 // Licensed under the GNU General Public License v3 or later.
 

@@ -1,4 +1,4 @@
-// Halcyon - first-run setup: the user brings their own phone firmware.
+// SymbOS - first-run setup: the user brings their own phone firmware.
 //
 // Nokia's firmware is copyrighted, so it is never bundled or fetched by the app on its
 // own. This screen makes importing the user's own copy a one-time, low-effort step:

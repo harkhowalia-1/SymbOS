@@ -1,4 +1,4 @@
-// Halcyon website: live clock, the + sheet, and download links from the latest release.
+// SymbOS website: live clock, the + sheet, and download links from the latest release.
 (() => {
   const repo = "__REPO__";
 

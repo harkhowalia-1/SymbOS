@@ -1,10 +1,10 @@
-// Halcyon - iPhone and iPad app.
+// SymbOS - iPhone and iPad app.
 // Licensed under the GNU General Public License v3 or later.
 
 import SwiftUI
 
 @main
-struct HalcyonApp: App {
+struct SymbOSApp: App {
     @StateObject private var controller = EmulatorController.shared
     @Environment(\.scenePhase) private var scenePhase
 
@@ -35,7 +35,7 @@ struct HalcyonApp: App {
         } else if url.isFileURL, FirmwareImporter.isFirmwareFile(url) {
             FirmwareImporter.shared.importFiles([url])
         } else if url.isFileURL {
-            // "Open in Halcyon" from Files, Safari or Mail.
+            // "Open in SymbOS" from Files, Safari or Mail.
             controller.install(packages: [url])
         }
     }

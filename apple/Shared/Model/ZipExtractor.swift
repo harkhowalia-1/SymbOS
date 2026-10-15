@@ -1,4 +1,4 @@
-// Halcyon - minimal streaming .zip extractor.
+// SymbOS - minimal streaming .zip extractor.
 //
 // iOS has no public unzip API, and firmware archives hold files of several hundred
 // MB, so this reads the central directory and inflates each entry in 1 MB chunks

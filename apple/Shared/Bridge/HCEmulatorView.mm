@@ -1,5 +1,5 @@
 /*
- * Halcyon - emulator surface view. See HCEmulatorView.h.
+ * SymbOS - emulator surface view. See HCEmulatorView.h.
  * Licensed under the GNU General Public License v3 or later.
  */
 #import "HCEmulatorView.h"

@@ -1,7 +1,7 @@
-// Halcyon - the one deep link every shortcut, widget, web clip and Mac launcher uses.
+// SymbOS - the one deep link every shortcut, widget, web clip and Mac launcher uses.
 //
-//   halcyon://launch?uid=101F4CD5   open that Symbian app
-//   halcyon://home                  show the home screen
+//   symbos://launch?uid=101F4CD5   open that Symbian app
+//   symbos://home                  show the home screen
 //
 // Licensed under the GNU General Public License v3 or later.
 

@@ -1,10 +1,10 @@
-// Halcyon - Siri / Spotlight phrases and Spotlight indexing (app target only).
+// SymbOS - Siri / Spotlight phrases and Spotlight indexing (app target only).
 // Licensed under the GNU General Public License v3 or later.
 
 import AppIntents
 import CoreSpotlight
 
-struct HalcyonShortcuts: AppShortcutsProvider {
+struct SymbOSShortcuts: AppShortcutsProvider {
     static var appShortcuts: [AppShortcut] {
         AppShortcut(
             intent: OpenSymbianAppIntent(),
@@ -25,7 +25,7 @@ enum SpotlightIndexer {
         Task.detached(priority: .utility) {
             try? await CSSearchableIndex.default().deleteAllSearchableItems()
             try? await CSSearchableIndex.default().indexAppEntities(entities)
-            HalcyonShortcuts.updateAppShortcutParameters()
+            SymbOSShortcuts.updateAppShortcutParameters()
         }
     }
 }

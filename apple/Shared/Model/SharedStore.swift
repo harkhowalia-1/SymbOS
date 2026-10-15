@@ -1,4 +1,4 @@
-// Halcyon - files shared between the app, its widgets and its App Intents.
+// SymbOS - files shared between the app, its widgets and its App Intents.
 //
 // Lives in the App Group container:
 //   apps.json            installed Symbian apps (uid + name)
@@ -34,7 +34,7 @@ enum SharedStore {
         }
         // No App Group (e.g. an unsigned build): keep working, widgets just won't see the data.
         let fallback = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask)[0]
-            .appendingPathComponent("HalcyonShared", isDirectory: true)
+            .appendingPathComponent("SymbOSShared", isDirectory: true)
         try? FileManager.default.createDirectory(at: fallback, withIntermediateDirectories: true)
         return fallback
     }

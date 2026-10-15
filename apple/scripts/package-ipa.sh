@@ -16,14 +16,14 @@ APP="$(find "${PRODUCTS}" -maxdepth 1 -name '*.app' | head -1)"
 [ -n "${APP}" ] || { echo "no .app in ${PRODUCTS}"; exit 1; }
 
 # Resolve $(APP_GROUP) the same way Xcode would.
-APP_GROUP="$(cd "${HERE}" && xcodebuild -project Halcyon.xcodeproj -target HalcyonIOS -configuration Release \
+APP_GROUP="$(cd "${HERE}" && xcodebuild -project SymbOS.xcodeproj -target SymbOSIOS -configuration Release \
     -sdk iphoneos -showBuildSettings 2>/dev/null | awk -F' = ' '$1 ~ / APP_GROUP$/ {print $2; exit}')"
 echo "App Group: ${APP_GROUP}"
 
 rm -rf "${WORK}"
 mkdir -p "${WORK}/Payload"
-sed "s/\$(APP_GROUP)/${APP_GROUP}/g" "${HERE}/iOS/Halcyon.entitlements" > "${WORK}/app.entitlements"
-sed "s/\$(APP_GROUP)/${APP_GROUP}/g" "${HERE}/Widgets/HalcyonWidgets.entitlements" > "${WORK}/widgets.entitlements"
+sed "s/\$(APP_GROUP)/${APP_GROUP}/g" "${HERE}/iOS/SymbOS.entitlements" > "${WORK}/app.entitlements"
+sed "s/\$(APP_GROUP)/${APP_GROUP}/g" "${HERE}/Widgets/SymbOSWidgets.entitlements" > "${WORK}/widgets.entitlements"
 
 cp -R "${APP}" "${WORK}/Payload/"
 STAGED="${WORK}/Payload/$(basename "${APP}")"

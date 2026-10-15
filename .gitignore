@@ -4,9 +4,9 @@ apple/build/
 apple/iOS/Info.plist
 apple/macOS/Info.plist
 apple/Widgets/Info.plist
-apple/iOS/Halcyon.entitlements
-apple/macOS/Halcyon.entitlements
-apple/Widgets/HalcyonWidgets.entitlements
+apple/iOS/SymbOS.entitlements
+apple/macOS/SymbOS.entitlements
+apple/Widgets/SymbOSWidgets.entitlements
 apple/Config/Core-*.xcconfig
 xcuserdata/
 DerivedData/

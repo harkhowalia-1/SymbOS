@@ -1,4 +1,4 @@
-// Halcyon - the iPhone-style home screen that hosts Symbian apps.
+// SymbOS - the iPhone-style home screen that hosts Symbian apps.
 // Licensed under the GNU General Public License v3 or later.
 
 import SwiftUI
@@ -330,10 +330,10 @@ struct MockBanner: View {
 }
 
 /// File types declared in Info.plist (UTImportedTypeDeclarations), so the file
-/// picker filters correctly and "Open in Halcyon" works from Files, Safari and Mail.
+/// picker filters correctly and "Open in SymbOS" works from Files, Safari and Mail.
 enum SymbianFileTypes {
-    static let sis = UTType(importedAs: "io.github.halcyon.sis-package", conformingTo: .data)
-    static let sisx = UTType(importedAs: "io.github.halcyon.sisx-package", conformingTo: .data)
+    static let sis = UTType(importedAs: "io.github.symbos.sis-package", conformingTo: .data)
+    static let sisx = UTType(importedAs: "io.github.symbos.sisx-package", conformingTo: .data)
     static let packages: [UTType] = [sis, sisx]
     /// ROM dumps have no reliable extension (SYM.ROM, *.rom, *.bin, *.fpsx), so allow any file.
     static let firmware: [UTType] = [.data]

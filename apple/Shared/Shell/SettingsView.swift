@@ -1,4 +1,4 @@
-// Halcyon - settings.
+// SymbOS - settings.
 // Licensed under the GNU General Public License v3 or later.
 
 import SwiftUI
@@ -71,7 +71,7 @@ struct SettingsView: View {
                         NSWorkspace.shared.activateFileViewerSelecting([controller.dataDirectory])
                     }
                     #else
-                    Text("The phone's drives are in the Files app under On My iPhone › \(AppConfig.displayName) › Halcyon › drives. Put music, photos and documents in drive E.")
+                    Text("The phone's drives are in the Files app under On My iPhone › \(AppConfig.displayName) › SymbOS › drives. Put music, photos and documents in drive E.")
                         .font(.callout)
                     #endif
                 }
