@@ -1,0 +1,2 @@
+ld: warning: ignoring duplicate libraries: '-lc++'
+ld: warning: reducing alignment of section __DATA,__common from 0x8000 to 0x4000 because it exceeds segment maximum alignment

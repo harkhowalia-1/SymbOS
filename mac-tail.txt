@@ -1,0 +1,300 @@
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/_Builtin_stdint-85O0IA4G7QGXKDAJ299E4S78B.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/_Builtin_tgmath-6OE7W0N7DE2MC9QCXC8AMJLPB.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/_DarwinFoundation3-5RMPZKJE1RN27R0Y5R178PBK3.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/_Builtin_intrinsics-4V1FDADO3OPMMLAELG6MAN2U4.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/_Builtin_stdatomic-34YEKSMOOES9JXYV86UMVZ51N.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/libDER-71J72I1O0K90LAOJAZNSDDPW4.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/OpenGL-5KCVDQGG9BTBCZSUS12OK3CHQ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/_Builtin_inttypes-9C3DW4YJKSRBJ23S00HW34RY4.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/Darwin-DZS2N1PDU03AEJ28SA5V8AGOW.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/simd-F2C7WALLCRIPCW3PEF5AJU7PV.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/MachO-4WJS7CGM4RDM6AG7JHM67BUID.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/launch-6PEJAL292U41J4HZWAPAID96D.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/libkern-6X67FTOMKG3N6WQWJQVWS8YUZ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/CUPS-AWWMWGX50NOPK0XFG1EMWPR9H.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/Spatial-9MQZNJ9GN781X7MHLOQXDGK74.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/ObjectiveC-1XSSU71EGDX32JSN8ANX9Z6ZJ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/os_object-BWONLKOIV87PK1L17K7NISSMW.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/os_workgroup-BL9JT1G2LPCL8OOZNO59VE5ZD.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/Dispatch-D99ISWMEPLXEE9I0SQUXQ2QZJ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/dnssd-CQRDVRV3WHM20IQQH58ISBBAH.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/CoreFoundation-8BLX3340W65Y9L5SLZSU4UF.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/XPC-1E4F6DFNMLVO05UVDFWFNGZ27.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/os-8PG4XW46QA05268JMCAK50B4G.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/CFNetwork-7HSF0FP7UWI16Y57XSO43L0FT.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/IOKit-3ZE28ZTWAQXMSOEHOZ62BYALN.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/ColorSync-9WB7PBJ0A9JSCNNNA6RSSLL46.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/Security-1XY74Z37STGH4ET712FE2XVT1.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/CoreGraphics-73083VE9PAA7R2P3G8P4WCXU3.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/DiskArbitration-45ZHWNEN9FFVS4EDVOF8AMJFA.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/CoreServices-CJ2ELSZQCRLGMO75RPHE8EXYY.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/CoreText-3AFQOXBX2L34H222UCJUHDWXS.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/ImageIO-BPD2SEEPABES2W5NZ9H2MICF1.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/Foundation-32MWLZR8LGV2JPE3F1K5ZVUPC.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/DataDetection-9DD6EHHLA8KNW1X2B3JYJHY72.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/AppIntents-AUMLHXNO8DJ50GBRVES27FZGI.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/CoreTransferable-5KE2AFV0DTZ0G6N5CU3Q5CUCT.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/ApplicationServices-9ZZDWNYP9QCTHYGBWLX2FRH7K.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/Accessibility-DLG3SRXE18OWHURWKC8DHWTVE.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/RelevanceKit-7O9WY1LGSM198Y5K5C92GQG4J.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/CoreData-3Y4HHDFS9QIUGZINNCLUEAD88.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/Symbols-1U7I1A3OJESKPJW8OHMLQVSK6.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/OSLog-7AWXMNK5ZWBUF7SZ2JQMCHOTW.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/Network-A7244Q1JZ7VQKEWYZJQGIS0NJ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/UniformTypeIdentifiers-99OH10M2ZPJQJUS2YCKTDS32S.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/IOSurface-5HBTMDBG2IE6E4H1QQGFJYHNJ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/_LocationEssentials-CGK6G4CT86QOIZDJM84VB6RLY.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/CoreSpotlight-D962LPQU3L5IK125B35T2FNN8.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/Metal-2X1UVUMXW01CGRPI4ELS1GSSQ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/CoreLocation-2ZCWXUY82ZF39MAJT8DO5TOAU.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/CoreVideo-6YH1G2KGBUWAJP7K8CQOC7VDK.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/CoreImage-EDR5O0WQKW1F0ZDJFALGLATYO.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/QuartzCore-7NJSEM1HYPCADDQEZG09KU7FF.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/SwiftUICore-8TF5H320SK7VP37Y4KIIXIXIH.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/AppKit-DOTFT3630A2A5QI0E8WIORNZD.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/SwiftUI-3QRQZ3UY50WI6B3IK2NU1AZ3K.pcm
+
+SwiftGeneratePch normal arm64 Compiling\ bridging\ header (in target 'HalcyonMac' from project 'Halcyon')
+
+SwiftDriverJobDiscovery normal arm64 Compiling bridging header (in target 'HalcyonMac' from project 'Halcyon')
+
+SwiftCompile normal arm64 Compiling\ AppConfig.swift,\ AppShortcuts.swift,\ DeepLink.swift,\ EmulatorController.swift,\ EmulatorSurface.swift,\ FirmwareSetupView.swift,\ HalcyonMacApp.swift,\ HomeLayout.swift,\ HomeScreenShortcutSheet.swift,\ HomeScreenView.swift,\ JITSupport.swift,\ LauncherAppGenerator.swift,\ RootView.swift,\ SettingsView.swift,\ SharedStore.swift,\ SymbianApp.swift,\ SymbianAppEntity.swift,\ GeneratedAssetSymbols.swift /Users/runner/work/SymbOS/SymbOS/apple/Shared/Model/AppConfig.swift /Users/runner/work/SymbOS/SymbOS/apple/Shared/Intents/AppShortcuts.swift /Users/runner/work/SymbOS/SymbOS/apple/Shared/Model/DeepLink.swift /Users/runner/work/SymbOS/SymbOS/apple/Shared/Model/EmulatorController.swift /Users/runner/work/SymbOS/SymbOS/apple/macOS/EmulatorSurface.swift /Users/runner/work/SymbOS/SymbOS/apple/Shared/Shell/FirmwareSetupView.swift /Users/runner/work/SymbOS/SymbOS/apple/macOS/HalcyonMacApp.swift /Users/runner/work/SymbOS/SymbOS/apple/Shared/Model/HomeLayout.swift /Users/runner/work/SymbOS/SymbOS/apple/Shared/Shell/HomeScreenShortcutSheet.swift /Users/runner/work/SymbOS/SymbOS/apple/Shared/Shell/HomeScreenView.swift /Users/runner/work/SymbOS/SymbOS/apple/Shared/Model/JITSupport.swift /Users/runner/work/SymbOS/SymbOS/apple/macOS/LauncherAppGenerator.swift /Users/runner/work/SymbOS/SymbOS/apple/Shared/Shell/RootView.swift /Users/runner/work/SymbOS/SymbOS/apple/Shared/Shell/SettingsView.swift /Users/runner/work/SymbOS/SymbOS/apple/Shared/Model/SharedStore.swift /Users/runner/work/SymbOS/SymbOS/apple/Shared/Model/SymbianApp.swift /Users/runner/work/SymbOS/SymbOS/apple/Shared/Intents/SymbianAppEntity.swift /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/DerivedSources/GeneratedAssetSymbols.swift /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/Accessibility.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/Foundation.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/SwiftUICore.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/Dispatch.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/Network.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/Metal.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/CoreSpotlight.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/CoreTransferable.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/CoreVideo.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/AppIntents.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/Spatial.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/CoreImage.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/CoreText.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/Combine.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/_DarwinFoundation1.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/simd.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/ObjectiveC.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/CoreGraphics.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/System.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/_DarwinFoundation3.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/Symbols.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/XPC.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/UniformTypeIdentifiers.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/os.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/DataDetection.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/_StringProcessing.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/RelevanceKit.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/Swift.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/_Builtin_float.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/DeveloperToolsSupport.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/_Concurrency.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/_DarwinFoundation2.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/Darwin.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/CoreFoundation.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/QuartzCore.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/IOKit.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/CoreData.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/ExtensionFoundation.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/OSLog.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/Observation.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/SwiftUI.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/AppKit.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/CoreLocation.swiftmodule/arm64e-apple-macos.swiftmodule /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/26.2/Distributed.swiftmodule/arm64e-apple-macos.swiftmodule /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/ptrauth-B9GMVPHJ5P56VDIPVWZNHI1Y8.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/DeveloperToolsSupport-27VEX3CL9X53H1LEOB7A3RY91.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/libkern-6X67FTOMKG3N6WQWJQVWS8YUZ.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/AppKit-DOTFT3630A2A5QI0E8WIORNZD.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/CoreServices-CJ2ELSZQCRLGMO75RPHE8EXYY.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/_Builtin_stddef-431LCJP37U3HEHKTHF7PXTAWD.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/_Builtin_stdint-85O0IA4G7QGXKDAJ299E4S78B.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/_Builtin_tgmath-6OE7W0N7DE2MC9QCXC8AMJLPB.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/_DarwinFoundation2-YYPT7OOMAMKWTUAAFU6KM8MX.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/DiskArbitration-45ZHWNEN9FFVS4EDVOF8AMJFA.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/_Builtin_stdatomic-34YEKSMOOES9JXYV86UMVZ51N.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/libDER-71J72I1O0K90LAOJAZNSDDPW4.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/launch-6PEJAL292U41J4HZWAPAID96D.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/Darwin-DZS2N1PDU03AEJ28SA5V8AGOW.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/Accessibility-DLG3SRXE18OWHURWKC8DHWTVE.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/CoreTransferable-5KE2AFV0DTZ0G6N5CU3Q5CUCT.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/CoreData-3Y4HHDFS9QIUGZINNCLUEAD88.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/UniformTypeIdentifiers-99OH10M2ZPJQJUS2YCKTDS32S.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/_DarwinFoundation3-5RMPZKJE1RN27R0Y5R178PBK3.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/Spatial-9MQZNJ9GN781X7MHLOQXDGK74.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/CFNetwork-7HSF0FP7UWI16Y57XSO43L0FT.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/OSLog-7AWXMNK5ZWBUF7SZ2JQMCHOTW.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/_LocationEssentials-CGK6G4CT86QOIZDJM84VB6RLY.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/CUPS-AWWMWGX50NOPK0XFG1EMWPR9H.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/CoreImage-EDR5O0WQKW1F0ZDJFALGLATYO.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/_SwiftConcurrencyShims-39UOH3M141RIWK5JXV3QQA1QR.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/DataDetection-9DD6EHHLA8KNW1X2B3JYJHY72.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/CoreText-3AFQOXBX2L34H222UCJUHDWXS.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/sys_types-4SF7D8SOBEI3W16IJJU4HJMK4.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/os-8PG4XW46QA05268JMCAK50B4G.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/_DarwinFoundation1-8E7M8TB8WRU66Q2UQ5KNJ45E.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/ptrcheck-AYDC9Q216AINND8PHUA4EB9OI.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/_Builtin_inttypes-9C3DW4YJKSRBJ23S00HW34RY4.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/IOSurface-5HBTMDBG2IE6E4H1QQGFJYHNJ.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/_Builtin_limits-4J4HY24V5P9D0DOVCQ45BDH1Q.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/IOKit-3ZE28ZTWAQXMSOEHOZ62BYALN.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/SwiftUICore-8TF5H320SK7VP37Y4KIIXIXIH.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/OpenGL-5KCVDQGG9BTBCZSUS12OK3CHQ.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/CoreSpotlight-D962LPQU3L5IK125B35T2FNN8.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/ExtensionFoundation-1TUNIR6OUEZ6QOM8RMSMD8ZC1.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/CoreVideo-6YH1G2KGBUWAJP7K8CQOC7VDK.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/QuartzCore-7NJSEM1HYPCADDQEZG09KU7FF.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/CoreLocation-2ZCWXUY82ZF39MAJT8DO5TOAU.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/ImageIO-BPD2SEEPABES2W5NZ9H2MICF1.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/RelevanceKit-7O9WY1LGSM198Y5K5C92GQG4J.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/MachO-4WJS7CGM4RDM6AG7JHM67BUID.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/_Builtin_stdarg-BUWXQTQTGJJK31DX744FD5R0B.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/_Builtin_intrinsics-4V1FDADO3OPMMLAELG6MAN2U4.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/AppIntents-AUMLHXNO8DJ50GBRVES27FZGI.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/CoreFoundation-8BLX3340W65Y9L5SLZSU4UF.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/os_workgroup-BL9JT1G2LPCL8OOZNO59VE5ZD.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/ColorSync-9WB7PBJ0A9JSCNNNA6RSSLL46.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/Security-1XY74Z37STGH4ET712FE2XVT1.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/SwiftShims-D5IJR1H0ZP7WYH666D8GHCW6A.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/os_object-BWONLKOIV87PK1L17K7NISSMW.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/Dispatch-D99ISWMEPLXEE9I0SQUXQ2QZJ.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/Symbols-1U7I1A3OJESKPJW8OHMLQVSK6.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/ObjectiveC-1XSSU71EGDX32JSN8ANX9Z6ZJ.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/dnssd-CQRDVRV3WHM20IQQH58ISBBAH.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/Network-A7244Q1JZ7VQKEWYZJQGIS0NJ.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/CoreGraphics-73083VE9PAA7R2P3G8P4WCXU3.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/_AvailabilityInternal-58U69LBK41YI4T4JGITP5I8MB.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/XPC-1E4F6DFNMLVO05UVDFWFNGZ27.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/SwiftUI-3QRQZ3UY50WI6B3IK2NU1AZ3K.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/simd-F2C7WALLCRIPCW3PEF5AJU7PV.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/Foundation-32MWLZR8LGV2JPE3F1K5ZVUPC.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/ApplicationServices-9ZZDWNYP9QCTHYGBWLX2FRH7K.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/_Builtin_float-49J28PU8W0JG9V69Y2O7WC78P.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/_Builtin_stdbool-3V6M4RADD4BRKRADC5R1J9REB.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules/Metal-2X1UVUMXW01CGRPI4ELS1GSSQ.pcm /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/Objects-normal/arm64/Halcyon-dependencies-1.json /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/Objects-normal/arm64/HalcyonMac-primary-Bridging-header.pch (in target 'HalcyonMac' from project 'Halcyon')
+
+CompileSwift normal arm64 (in target 'HalcyonMac' from project 'Halcyon')
+    cd /Users/runner/work/SymbOS/SymbOS/apple
+    
+/Users/runner/work/SymbOS/SymbOS/apple/Shared/Model/EmulatorController.swift:118:13: warning: capture of 'emulator' with non-Sendable type 'HCEmulator' in a '@Sendable' closure
+            emulator.prepareDataDirectory(dataDir.path, bundleResources: bundle)
+            ^
+/Users/runner/work/SymbOS/SymbOS/apple/Shared/Bridge/HCEmulator.h:59:12: note: class 'HCEmulator' does not conform to the 'Sendable' protocol
+@interface HCEmulator : NSObject
+           ^
+/Users/runner/work/SymbOS/SymbOS/apple/Shared/Model/EmulatorController.swift:119:54: warning: capture of 'surface' with non-Sendable type 'UnsafeMutableRawPointer' in a '@Sendable' closure
+            let booted = emulator.start(withSurface: surface, width: Int32(width), height: Int32(height))
+                                                     ^
+Swift.UnsafeMutableRawPointer:1:23: note: struct 'UnsafeMutableRawPointer' does not conform to the 'Sendable' protocol
+@frozen public struct UnsafeMutableRawPointer : @unsafe _Pointer {
+                      ^
+/Users/runner/work/SymbOS/SymbOS/apple/Shared/Model/EmulatorController.swift:200:17: warning: capture of 'emulator' with non-Sendable type 'HCEmulator' in a '@Sendable' closure
+                emulator.exitApp()
+                ^
+/Users/runner/work/SymbOS/SymbOS/apple/Shared/Bridge/HCEmulator.h:59:12: note: class 'HCEmulator' does not conform to the 'Sendable' protocol
+@interface HCEmulator : NSObject
+           ^
+/Users/runner/work/SymbOS/SymbOS/apple/Shared/Model/EmulatorController.swift:234:13: warning: capture of 'emulator' with non-Sendable type 'HCEmulator' in a '@Sendable' closure
+            emulator.exitApp()
+            ^
+/Users/runner/work/SymbOS/SymbOS/apple/Shared/Bridge/HCEmulator.h:59:12: note: class 'HCEmulator' does not conform to the 'Sendable' protocol
+@interface HCEmulator : NSObject
+           ^
+/Users/runner/work/SymbOS/SymbOS/apple/Shared/Model/EmulatorController.swift:272:36: warning: capture of 'emulator' with non-Sendable type 'HCEmulator' in a '@Sendable' closure
+            let code = local.map { emulator.installPackage(atPath: $0.path) } ?? -1
+                                   ^
+/Users/runner/work/SymbOS/SymbOS/apple/Shared/Bridge/HCEmulator.h:59:12: note: class 'HCEmulator' does not conform to the 'Sendable' protocol
+@interface HCEmulator : NSObject
+           ^
+/Users/runner/work/SymbOS/SymbOS/apple/Shared/Model/EmulatorController.swift:304:13: warning: capture of 'emulator' with non-Sendable type 'HCEmulator' in a '@Sendable' closure
+            emulator.uninstallPackageUID(package.uid, index: package.index)
+            ^
+/Users/runner/work/SymbOS/SymbOS/apple/Shared/Bridge/HCEmulator.h:59:12: note: class 'HCEmulator' does not conform to the 'Sendable' protocol
+@interface HCEmulator : NSObject
+           ^
+/Users/runner/work/SymbOS/SymbOS/apple/Shared/Model/EmulatorController.swift:304:42: warning: capture of 'package' with non-Sendable type 'HCPackageInfo' in a '@Sendable' closure
+            emulator.uninstallPackageUID(package.uid, index: package.index)
+                                         ^
+/Users/runner/work/SymbOS/SymbOS/apple/Shared/Bridge/HCEmulator.h:44:12: note: class 'HCPackageInfo' does not conform to the 'Sendable' protocol
+@interface HCPackageInfo : NSObject
+           ^
+/Users/runner/work/SymbOS/SymbOS/apple/Shared/Model/EmulatorController.swift:322:24: warning: capture of 'emulator' with non-Sendable type 'HCEmulator' in a '@Sendable' closure
+                code = emulator.installDeviceROM(localROM.path, rpkg: localRPKG?.path) { percent in
+                       ^
+/Users/runner/work/SymbOS/SymbOS/apple/Shared/Bridge/HCEmulator.h:59:12: note: class 'HCEmulator' does not conform to the 'Sendable' protocol
+@interface HCEmulator : NSObject
+           ^
+/Users/runner/work/SymbOS/SymbOS/apple/Shared/Model/EmulatorController.swift:368:13: warning: capture of 'emulator' with non-Sendable type 'HCEmulator' in a '@Sendable' closure
+            emulator.jitEnabled = effective
+            ^
+/Users/runner/work/SymbOS/SymbOS/apple/Shared/Bridge/HCEmulator.h:59:12: note: class 'HCEmulator' does not conform to the 'Sendable' protocol
+@interface HCEmulator : NSObject
+           ^
+
+SwiftDriverJobDiscovery normal arm64 Compiling AppConfig.swift, AppShortcuts.swift, DeepLink.swift, EmulatorController.swift, EmulatorSurface.swift, FirmwareSetupView.swift, HalcyonMacApp.swift, HomeLayout.swift, HomeScreenShortcutSheet.swift, HomeScreenView.swift, JITSupport.swift, LauncherAppGenerator.swift, RootView.swift, SettingsView.swift, SharedStore.swift, SymbianApp.swift, SymbianAppEntity.swift, GeneratedAssetSymbols.swift (in target 'HalcyonMac' from project 'Halcyon')
+
+SwiftDriver\ Compilation\ Requirements HalcyonMac normal arm64 com.apple.xcode.tools.swift.compiler (in target 'HalcyonMac' from project 'Halcyon')
+    cd /Users/runner/work/SymbOS/SymbOS/apple
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name Halcyon -O -whole-module-optimization -enforce-exclusivity\=checked @/Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/Objects-normal/arm64/Halcyon.SwiftFileList -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_26.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -target arm64-apple-macos15.0 -g -Xfrontend -serialize-debugging-options -swift-version 5 -I /Users/runner/work/SymbOS/SymbOS/apple/build/Release -F /Users/runner/work/SymbOS/SymbOS/apple/build/Release -c -num-threads 3 -Xcc -ivfsstatcache -Xcc /var/folders/nj/vtw8zd2j31d1gdrtntc5y4600000gn/C/com.apple.DeveloperTools/26.3-17C529/Xcode/SDKStatCaches.noindex/macosx26.2-25C58-dc75598d0054f22ec865fa860f139d723a7ae8a47380b252078bfe6190e59ef2.sdkstatcache -output-file-map /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/Objects-normal/arm64/HalcyonMac-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/runner/work/SymbOS/SymbOS/apple/build/SwiftExplicitPrecompiledModules -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/Objects-normal/arm64/Halcyon.swiftmodule -validate-clang-modules-once -clang-build-session-file /var/folders/nj/vtw8zd2j31d1gdrtntc5y4600000gn/C/org.llvm.clang/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/Objects-normal/arm64/HalcyonMac_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/Halcyon-generated-files.hmap -Xcc -I/Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/Halcyon-own-target-headers.hmap -Xcc -I/Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/Halcyon-all-target-headers.hmap -Xcc -iquote -Xcc /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/Halcyon-project-headers.hmap -Xcc -I/Users/runner/work/SymbOS/SymbOS/apple/build/Release/include -Xcc -I/Users/runner/work/SymbOS/SymbOS/core/out/macos/include -Xcc -I/Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/DerivedSources-normal/arm64 -Xcc -I/Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/DerivedSources/arm64 -Xcc -I/Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/DerivedSources -Xcc -DHALCYON_REAL_CORE\=1 -emit-objc-header -emit-objc-header-path /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/Objects-normal/arm64/Halcyon-Swift.h -import-objc-header /Users/runner/work/SymbOS/SymbOS/apple/Shared/Bridge/Halcyon-Bridging-Header.h -working-directory /Users/runner/work/SymbOS/SymbOS/apple -no-emit-module-separately-wmo
+
+SwiftMergeGeneratedHeaders /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/DerivedSources/Halcyon-Swift.h /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/Objects-normal/arm64/Halcyon-Swift.h (in target 'HalcyonMac' from project 'Halcyon')
+    cd /Users/runner/work/SymbOS/SymbOS/apple
+    builtin-swiftHeaderTool -arch arm64 /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/Objects-normal/arm64/Halcyon-Swift.h -o /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/DerivedSources/Halcyon-Swift.h
+
+Copy /Users/runner/work/SymbOS/SymbOS/apple/build/Release/Halcyon.swiftmodule/arm64-apple-macos.swiftmodule /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/Objects-normal/arm64/Halcyon.swiftmodule (in target 'HalcyonMac' from project 'Halcyon')
+    cd /Users/runner/work/SymbOS/SymbOS/apple
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/Objects-normal/arm64/Halcyon.swiftmodule /Users/runner/work/SymbOS/SymbOS/apple/build/Release/Halcyon.swiftmodule/arm64-apple-macos.swiftmodule
+
+Copy /Users/runner/work/SymbOS/SymbOS/apple/build/Release/Halcyon.swiftmodule/arm64-apple-macos.swiftdoc /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/Objects-normal/arm64/Halcyon.swiftdoc (in target 'HalcyonMac' from project 'Halcyon')
+    cd /Users/runner/work/SymbOS/SymbOS/apple
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/Objects-normal/arm64/Halcyon.swiftdoc /Users/runner/work/SymbOS/SymbOS/apple/build/Release/Halcyon.swiftmodule/arm64-apple-macos.swiftdoc
+
+Copy /Users/runner/work/SymbOS/SymbOS/apple/build/Release/Halcyon.swiftmodule/arm64-apple-macos.abi.json /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/Objects-normal/arm64/Halcyon.abi.json (in target 'HalcyonMac' from project 'Halcyon')
+    cd /Users/runner/work/SymbOS/SymbOS/apple
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/Objects-normal/arm64/Halcyon.abi.json /Users/runner/work/SymbOS/SymbOS/apple/build/Release/Halcyon.swiftmodule/arm64-apple-macos.abi.json
+
+Copy /Users/runner/work/SymbOS/SymbOS/apple/build/Release/Halcyon.swiftmodule/Project/arm64-apple-macos.swiftsourceinfo /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/Objects-normal/arm64/Halcyon.swiftsourceinfo (in target 'HalcyonMac' from project 'Halcyon')
+    cd /Users/runner/work/SymbOS/SymbOS/apple
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/Objects-normal/arm64/Halcyon.swiftsourceinfo /Users/runner/work/SymbOS/SymbOS/apple/build/Release/Halcyon.swiftmodule/Project/arm64-apple-macos.swiftsourceinfo
+
+CompileC /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/Objects-normal/arm64/HCEmulatorView.o /Users/runner/work/SymbOS/SymbOS/apple/Shared/Bridge/HCEmulatorView.mm normal arm64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'HalcyonMac' from project 'Halcyon')
+    cd /Users/runner/work/SymbOS/SymbOS/apple
+    
+    Using response file: /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/Objects-normal/arm64/af3fcb34312c57c0f52879cdce924b91-common-args.resp
+    
+    /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -ivfsstatcache /var/folders/nj/vtw8zd2j31d1gdrtntc5y4600000gn/C/com.apple.DeveloperTools/26.3-17C529/Xcode/SDKStatCaches.noindex/macosx26.2-25C58-dc75598d0054f22ec865fa860f139d723a7ae8a47380b252078bfe6190e59ef2.sdkstatcache -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -fno-color-diagnostics -fmodules-prune-interval\=86400 -fmodules-prune-after\=345600 -fbuild-session-file\=/var/folders/nj/vtw8zd2j31d1gdrtntc5y4600000gn/C/org.llvm.clang/ModuleCache.noindex/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror\=non-modular-include-in-framework-module -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Werror\=return-type -Wdocumentation -Wunreachable-code -Wquoted-include-in-framework-header -Wno-implicit-atomic-properties -Werror\=deprecated-objc-isa-usage -Wno-objc-interface-ivars -Werror\=objc-root-class -Wno-arc-repeated-use-of-weak -Wimplicit-retain-self -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-float-conversion -Wnon-literal-null-conversion -Wobjc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wdeprecated-implementations -Wno-c++11-extensions -Wno-implicit-fallthrough -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Winfinite-recursion -Wmove -Wcomma -Wblock-capture-autoreleasing -Wstrict-prototypes -Wrange-loop-analysis -Wno-semicolon-before-method-body -Wunguarded-availability @/Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/Objects-normal/arm64/af3fcb34312c57c0f52879cdce924b91-common-args.resp -MMD -MT dependencies -MF /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/Objects-normal/arm64/HCEmulatorView.d --serialize-diagnostics /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/Objects-normal/arm64/HCEmulatorView.dia -c /Users/runner/work/SymbOS/SymbOS/apple/Shared/Bridge/HCEmulatorView.mm -o /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/Objects-normal/arm64/HCEmulatorView.o
+/Users/runner/work/SymbOS/SymbOS/apple/Shared/Bridge/HCEmulatorView.mm:176:14: warning: 'wantsBestResolutionOpenGLSurface' is deprecated: first deprecated in macOS 10.14 - Use NSOpenGLView instead. [-Wdeprecated-declarations]
+  176 |         self.wantsBestResolutionOpenGLSurface = YES;
+      |              ^
+In file included from /Users/runner/work/SymbOS/SymbOS/apple/Shared/Bridge/HCEmulatorView.mm:5:
+In file included from /Users/runner/work/SymbOS/SymbOS/apple/Shared/Bridge/HCEmulatorView.h:19:
+In file included from /Applications/Xcode_26.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h:209:
+/Applications/Xcode_26.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSOpenGLView.h:47:16: note: 'wantsBestResolutionOpenGLSurface' has been explicitly marked deprecated here
+   47 | @property BOOL wantsBestResolutionOpenGLSurface API_DEPRECATED("Use NSOpenGLView instead.", macos(10.7,10.14));
+      |                ^
+1 warning generated.
+
+CompileC /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/Objects-normal/arm64/HCEmulator.o /Users/runner/work/SymbOS/SymbOS/apple/Shared/Bridge/HCEmulator.mm normal arm64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'HalcyonMac' from project 'Halcyon')
+    cd /Users/runner/work/SymbOS/SymbOS/apple
+    
+    Using response file: /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/Objects-normal/arm64/af3fcb34312c57c0f52879cdce924b91-common-args.resp
+    
+    /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -ivfsstatcache /var/folders/nj/vtw8zd2j31d1gdrtntc5y4600000gn/C/com.apple.DeveloperTools/26.3-17C529/Xcode/SDKStatCaches.noindex/macosx26.2-25C58-dc75598d0054f22ec865fa860f139d723a7ae8a47380b252078bfe6190e59ef2.sdkstatcache -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -fno-color-diagnostics -fmodules-prune-interval\=86400 -fmodules-prune-after\=345600 -fbuild-session-file\=/var/folders/nj/vtw8zd2j31d1gdrtntc5y4600000gn/C/org.llvm.clang/ModuleCache.noindex/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror\=non-modular-include-in-framework-module -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Werror\=return-type -Wdocumentation -Wunreachable-code -Wquoted-include-in-framework-header -Wno-implicit-atomic-properties -Werror\=deprecated-objc-isa-usage -Wno-objc-interface-ivars -Werror\=objc-root-class -Wno-arc-repeated-use-of-weak -Wimplicit-retain-self -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-float-conversion -Wnon-literal-null-conversion -Wobjc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wdeprecated-implementations -Wno-c++11-extensions -Wno-implicit-fallthrough -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Winfinite-recursion -Wmove -Wcomma -Wblock-capture-autoreleasing -Wstrict-prototypes -Wrange-loop-analysis -Wno-semicolon-before-method-body -Wunguarded-availability @/Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/Objects-normal/arm64/af3fcb34312c57c0f52879cdce924b91-common-args.resp -MMD -MT dependencies -MF /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/Objects-normal/arm64/HCEmulator.d --serialize-diagnostics /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/Objects-normal/arm64/HCEmulator.dia -c /Users/runner/work/SymbOS/SymbOS/apple/Shared/Bridge/HCEmulator.mm -o /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/Objects-normal/arm64/HCEmulator.o
+/Users/runner/work/SymbOS/SymbOS/apple/Shared/Bridge/HCEmulator.mm:33:35: warning: bitwise operation between different enumeration types ('(unnamed enum at /Applications/Xcode_26.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGImage.h:69:9)' and 'CGImageAlphaInfo') is deprecated [-Wdeprecated-anon-enum-enum-conversion]
+   33 |         kCGBitmapByteOrderDefault | kCGImageAlphaLast, provider, NULL, true, kCGRenderingIntentDefault);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~ ^ ~~~~~~~~~~~~~~~~~
+1 warning generated.
+
+Ld /Users/runner/work/SymbOS/SymbOS/apple/build/Release/Halcyon.app/Contents/MacOS/Halcyon normal (in target 'HalcyonMac' from project 'Halcyon')
+    cd /Users/runner/work/SymbOS/SymbOS/apple
+    /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -Xlinker -reproducible -target arm64-apple-macos15.0 -isysroot /Applications/Xcode_26.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -Os -L/Users/runner/work/SymbOS/SymbOS/apple/build/EagerLinkingTBDs/Release -L/Users/runner/work/SymbOS/SymbOS/apple/build/Release -F/Users/runner/work/SymbOS/SymbOS/apple/build/EagerLinkingTBDs/Release -F/Users/runner/work/SymbOS/SymbOS/apple/build/Release -filelist /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/Objects-normal/arm64/Halcyon.LinkFileList -Xlinker -rpath -Xlinker /usr/lib/swift -Xlinker -rpath -Xlinker @executable_path/../Frameworks -dead_strip -Xlinker -object_path_lto -Xlinker /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/Objects-normal/arm64/Halcyon_lto.o -Xlinker -dependency_info -Xlinker /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/Objects-normal/arm64/Halcyon_dependency_info.dat -stdlib\=libc++ -fobjc-arc -fobjc-link-runtime -L/Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/Objects-normal/arm64/Halcyon.swiftmodule @/Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release/HalcyonMac.build/Objects-normal/arm64/Halcyon-linker-args.resp /Users/runner/work/SymbOS/SymbOS/apple/../core/out/macos/libHalcyonCore.a -lc++ -lz -liconv -framework OpenGL -framework AppKit -framework QuartzCore -framework AudioToolbox -framework AudioUnit -framework CoreAudio -framework CoreServices -framework CoreVideo -framework IOKit -framework Carbon -F/Users/runner/work/SymbOS/SymbOS/apple/../core/out/macos -framework SDL2 -lbz2 -o /Users/runner/work/SymbOS/SymbOS/apple/build/Release/Halcyon.app/Contents/MacOS/Halcyon
+ld: warning: ignoring duplicate libraries: '-lc++'
+ld: warning: Could not parse or use implicit file '/Applications/Xcode_26.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/SwiftUICore.framework/Versions/A/SwiftUICore.tbd': cannot link directly with 'SwiftUICore' because product being built is not an allowed client of it
+Undefined symbols for architecture arm64:
+  "_BrotliDecoderDecompress", referenced from:
+      _sfnt_init_face in libHalcyonCore.a[736](sfnt.c.o)
+  "_png_create_info_struct", referenced from:
+      _Load_SBit_Png in libHalcyonCore.a[736](sfnt.c.o)
+  "_png_create_read_struct", referenced from:
+      _Load_SBit_Png in libHalcyonCore.a[736](sfnt.c.o)
+  "_png_destroy_read_struct", referenced from:
+      _Load_SBit_Png in libHalcyonCore.a[736](sfnt.c.o)
+      _Load_SBit_Png in libHalcyonCore.a[736](sfnt.c.o)
+  "_png_error", referenced from:
+      _read_data_from_FT_Stream in libHalcyonCore.a[736](sfnt.c.o)
+  "_png_get_IHDR", referenced from:
+      _Load_SBit_Png in libHalcyonCore.a[736](sfnt.c.o)
+      _Load_SBit_Png in libHalcyonCore.a[736](sfnt.c.o)
+  "_png_get_error_ptr", referenced from:
+      _error_callback in libHalcyonCore.a[736](sfnt.c.o)
+      _read_data_from_FT_Stream in libHalcyonCore.a[736](sfnt.c.o)
+  "_png_get_io_ptr", referenced from:
+      _read_data_from_FT_Stream in libHalcyonCore.a[736](sfnt.c.o)
+  "_png_get_valid", referenced from:
+      _Load_SBit_Png in libHalcyonCore.a[736](sfnt.c.o)
+      _Load_SBit_Png in libHalcyonCore.a[736](sfnt.c.o)
+  "_png_read_end", referenced from:
+      _Load_SBit_Png in libHalcyonCore.a[736](sfnt.c.o)
+  "_png_read_image", referenced from:
+      _Load_SBit_Png in libHalcyonCore.a[736](sfnt.c.o)
+  "_png_read_info", referenced from:
+      _Load_SBit_Png in libHalcyonCore.a[736](sfnt.c.o)
+  "_png_read_update_info", referenced from:
+      _Load_SBit_Png in libHalcyonCore.a[736](sfnt.c.o)
+  "_png_set_expand_gray_1_2_4_to_8", referenced from:
+      _Load_SBit_Png in libHalcyonCore.a[736](sfnt.c.o)
+  "_png_set_filler", referenced from:
+      _Load_SBit_Png in libHalcyonCore.a[736](sfnt.c.o)
+  "_png_set_gray_to_rgb", referenced from:
+      _Load_SBit_Png in libHalcyonCore.a[736](sfnt.c.o)
+  "_png_set_interlace_handling", referenced from:
+      _Load_SBit_Png in libHalcyonCore.a[736](sfnt.c.o)
+  "_png_set_longjmp_fn", referenced from:
+      _Load_SBit_Png in libHalcyonCore.a[736](sfnt.c.o)
+      _error_callback in libHalcyonCore.a[736](sfnt.c.o)
+  "_png_set_packing", referenced from:
+      _Load_SBit_Png in libHalcyonCore.a[736](sfnt.c.o)
+  "_png_set_palette_to_rgb", referenced from:
+      _Load_SBit_Png in libHalcyonCore.a[736](sfnt.c.o)
+  "_png_set_read_fn", referenced from:
+      _Load_SBit_Png in libHalcyonCore.a[736](sfnt.c.o)
+  "_png_set_read_user_transform_fn", referenced from:
+      _Load_SBit_Png in libHalcyonCore.a[736](sfnt.c.o)
+  "_png_set_strip_16", referenced from:
+      _Load_SBit_Png in libHalcyonCore.a[736](sfnt.c.o)
+  "_png_set_tRNS_to_alpha", referenced from:
+      _Load_SBit_Png in libHalcyonCore.a[736](sfnt.c.o)
+ld: symbol(s) not found for architecture arm64
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+
+note: Removed stale file '/Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release-iphoneos/Halcyon-1b314fa1a1b07d4451e0e6bf4623ca6f-VFS-iphoneos/all-product-headers.yaml'
+
+note: Run script build phase 'Embed SDL2.framework' will be run during every build because the option to run the script phase "Based on dependency analysis" is unchecked. (in target 'HalcyonMac' from project 'Halcyon')
+note: Run script build phase 'Copy emulator core assets' will be run during every build because the option to run the script phase "Based on dependency analysis" is unchecked. (in target 'HalcyonMac' from project 'Halcyon')
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Ld /Users/runner/work/SymbOS/SymbOS/apple/build/Release/Halcyon.app/Contents/MacOS/Halcyon normal (in target 'HalcyonMac' from project 'Halcyon')
+(1 failure)

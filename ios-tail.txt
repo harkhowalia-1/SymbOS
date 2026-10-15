@@ -1,0 +1,300 @@
+    export NATIVE_ARCH_ACTUAL\=arm64
+    export NO_COMMON\=YES
+    export OBJECT_FILE_DIR\=/Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release-iphoneos/HalcyonIOS.build/Objects
+    export OBJECT_FILE_DIR_normal\=/Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release-iphoneos/HalcyonIOS.build/Objects-normal
+    export OBJROOT\=/Users/runner/work/SymbOS/SymbOS/apple/build
+    export ONLY_ACTIVE_ARCH\=NO
+    export OS\=MACOS
+    export OSAC\=/usr/bin/osacompile
+    export OTHER_LDFLAGS\=\ /Users/runner/work/SymbOS/SymbOS/apple/../core/out/ios/libHalcyonCore.a\ -lc++\ -lz\ -liconv\ -framework\ OpenGLES\ -framework\ QuartzCore\ -framework\ AudioToolbox\ -framework\ AVFoundation\ -framework\ CoreMotion\ -framework\ CoreHaptics\ -framework\ CoreVideo\ -framework\ CoreAudio\ -lbz2
+    export PACKAGE_TYPE\=com.apple.package-type.wrapper.application
+    export PASCAL_STRINGS\=YES
+    export PATH\=/Applications/Xcode_26.3.app/Contents/SharedFrameworks/SwiftBuild.framework/Versions/A/PlugIns/SWBBuildService.bundle/Contents/PlugIns/SWBUniversalPlatformPlugin.bundle/Contents/Frameworks/SWBUniversalPlatform.framework/Resources:/var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.3.7003.10.4xhYVM/Metal.xctoolchain/usr/bin:/var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.3.7003.10.4xhYVM/Metal.xctoolchain/usr/local/bin:/var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.3.7003.10.4xhYVM/Metal.xctoolchain/usr/libexec:/Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/bin:/Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode_26.3.app/Contents/Developer/usr/bin:/Applications/Xcode_26.3.app/Contents/Developer/usr/local/bin:/opt/homebrew/lib/ruby/gems/3.3.0/bin:/opt/homebrew/opt/ruby@3.3/bin:/Users/runner/.local/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/runner/.cargo/bin:/usr/local/opt/curl/bin:/usr/local/bin:/usr/local/sbin:/Users/runner/bin:/Users/runner/.yarn/bin:/Users/runner/Library/Android/sdk/tools:/Users/runner/Library/Android/sdk/platform-tools:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/usr/bin:/bin:/usr/sbin:/sbin:/Users/runner/.dotnet/tools
+    export PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES\=/usr/include\ /usr/local/include\ /System/Library/Frameworks\ /System/Library/PrivateFrameworks\ /Applications/Xcode_26.3.app/Contents/Developer/Headers\ /Applications/Xcode_26.3.app/Contents/Developer/SDKs\ /Applications/Xcode_26.3.app/Contents/Developer/Platforms
+    export PBDEVELOPMENTPLIST_PATH\=Halcyon.app/pbdevelopment.plist
+    export PER_ARCH_MODULE_FILE_DIR\=/Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release-iphoneos/HalcyonIOS.build/Objects-normal/undefined_arch
+    export PER_ARCH_OBJECT_FILE_DIR\=/Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release-iphoneos/HalcyonIOS.build/Objects-normal/undefined_arch
+    export PER_VARIANT_OBJECT_FILE_DIR\=/Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release-iphoneos/HalcyonIOS.build/Objects-normal
+    export PKGINFO_FILE_PATH\=/Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release-iphoneos/HalcyonIOS.build/PkgInfo
+    export PKGINFO_PATH\=Halcyon.app/PkgInfo
+    export PLATFORM_DEVELOPER_APPLICATIONS_DIR\=/Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Applications
+    export PLATFORM_DEVELOPER_BIN_DIR\=/Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin
+    export PLATFORM_DEVELOPER_LIBRARY_DIR\=/Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library
+    export PLATFORM_DEVELOPER_SDK_DIR\=/Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs
+    export PLATFORM_DEVELOPER_TOOLS_DIR\=/Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Tools
+    export PLATFORM_DEVELOPER_USR_DIR\=/Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr
+    export PLATFORM_DIR\=/Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform
+    export PLATFORM_DISPLAY_NAME\=iOS
+    export PLATFORM_FAMILY_NAME\=iOS
+    export PLATFORM_NAME\=iphoneos
+    export PLATFORM_PREFERRED_ARCH\=arm64
+    export PLATFORM_PRODUCT_BUILD_VERSION\=23C57
+    export PLATFORM_REQUIRES_SWIFT_AUTOLINK_EXTRACT\=NO
+    export PLATFORM_REQUIRES_SWIFT_MODULEWRAP\=NO
+    export PLIST_FILE_OUTPUT_FORMAT\=binary
+    export PLUGINS_FOLDER_PATH\=Halcyon.app/PlugIns
+    export PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR\=YES
+    export PRECOMP_DESTINATION_DIR\=/Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release-iphoneos/HalcyonIOS.build/PrefixHeaders
+    export PRIVATE_HEADERS_FOLDER_PATH\=Halcyon.app/PrivateHeaders
+    export PROCESSED_INFOPLIST_PATH\=/Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release-iphoneos/HalcyonIOS.build/Objects-normal/undefined_arch/Processed-Info.plist
+    export PRODUCT_BUNDLE_IDENTIFIER\=io.github.harkhowalia1.halcyon
+    export PRODUCT_BUNDLE_PACKAGE_TYPE\=APPL
+    export PRODUCT_MODULE_NAME\=Halcyon
+    export PRODUCT_NAME\=Halcyon
+    export PRODUCT_SETTINGS_PATH\=/Users/runner/work/SymbOS/SymbOS/apple/iOS/Info.plist
+    export PRODUCT_TYPE\=com.apple.product-type.application
+    export PROFILING_CODE\=NO
+    export PROJECT\=Halcyon
+    export PROJECT_DERIVED_FILE_DIR\=/Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/DerivedSources
+    export PROJECT_DIR\=/Users/runner/work/SymbOS/SymbOS/apple
+    export PROJECT_FILE_PATH\=/Users/runner/work/SymbOS/SymbOS/apple/Halcyon.xcodeproj
+    export PROJECT_GUID\=1b314fa1a1b07d4451e0e6bf4623ca6f
+    export PROJECT_NAME\=Halcyon
+    export PROJECT_TEMP_DIR\=/Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build
+    export PROJECT_TEMP_ROOT\=/Users/runner/work/SymbOS/SymbOS/apple/build
+    export PROVISIONING_PROFILE_REQUIRED\=YES
+    export PROVISIONING_PROFILE_REQUIRED_YES_YES\=YES
+    export PROVISIONING_PROFILE_SUPPORTED\=YES
+    export PUBLIC_HEADERS_FOLDER_PATH\=Halcyon.app/Headers
+    export RECOMMENDED_IPHONEOS_DEPLOYMENT_TARGET\=15.0
+    export RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS\=YES
+    export REMOVE_CVS_FROM_RESOURCES\=YES
+    export REMOVE_GIT_FROM_RESOURCES\=YES
+    export REMOVE_HEADERS_FROM_EMBEDDED_BUNDLES\=YES
+    export REMOVE_HG_FROM_RESOURCES\=YES
+    export REMOVE_STATIC_EXECUTABLES_FROM_EMBEDDED_BUNDLES\=YES
+    export REMOVE_SVN_FROM_RESOURCES\=YES
+    export REPOSITORY_URL\=https://github.com/harkhowalia-1/SymbOS
+    export RESCHEDULE_INDEPENDENT_HEADERS_PHASES\=YES
+    export REZ_COLLECTOR_DIR\=/Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release-iphoneos/HalcyonIOS.build/ResourceManagerResources
+    export REZ_OBJECTS_DIR\=/Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release-iphoneos/HalcyonIOS.build/ResourceManagerResources/Objects
+    export REZ_SEARCH_PATHS\=/Users/runner/work/SymbOS/SymbOS/apple/build/Release-iphoneos\ 
+    export RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES\=NO
+    export RUNTIME_EXCEPTION_ALLOW_JIT\=NO
+    export RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY\=NO
+    export RUNTIME_EXCEPTION_DEBUGGING_TOOL\=NO
+    export RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION\=NO
+    export RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION\=NO
+    export SCAN_ALL_SOURCE_FILES_FOR_INCLUDES\=NO
+    export SCRIPTS_FOLDER_PATH\=Halcyon.app/Scripts
+    export SCRIPT_INPUT_FILE_COUNT\=0
+    export SCRIPT_INPUT_FILE_LIST_COUNT\=0
+    export SCRIPT_OUTPUT_FILE_COUNT\=0
+    export SCRIPT_OUTPUT_FILE_LIST_COUNT\=0
+    export SDKROOT\=/Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.2.sdk
+    export SDK_DIR\=/Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.2.sdk
+    export SDK_DIR_iphoneos\=/Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.2.sdk
+    export SDK_DIR_iphoneos26_2\=/Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.2.sdk
+    export SDK_NAME\=iphoneos26.2
+    export SDK_NAMES\=iphoneos26.2
+    export SDK_PRODUCT_BUILD_VERSION\=23C57
+    export SDK_STAT_CACHE_DIR\=/var/folders/nj/vtw8zd2j31d1gdrtntc5y4600000gn/C/com.apple.DeveloperTools/26.3-17C529/Xcode
+    export SDK_STAT_CACHE_ENABLE\=YES
+    export SDK_STAT_CACHE_PATH\=/var/folders/nj/vtw8zd2j31d1gdrtntc5y4600000gn/C/com.apple.DeveloperTools/26.3-17C529/Xcode/SDKStatCaches.noindex/iphoneos26.2-23C57-dc75598d0054f22ec865fa860f139d722dd23b4ebda140f7210d155ff1243552.sdkstatcache
+    export SDK_VERSION\=26.2
+    export SDK_VERSION_ACTUAL\=260200
+    export SDK_VERSION_MAJOR\=260000
+    export SDK_VERSION_MINOR\=260200
+    export SED\=/usr/bin/sed
+    export SEPARATE_STRIP\=NO
+    export SEPARATE_SYMBOL_EDIT\=NO
+    export SET_DIR_MODE_OWNER_GROUP\=YES
+    export SET_FILE_MODE_OWNER_GROUP\=NO
+    export SHALLOW_BUNDLE\=YES
+    export SHALLOW_BUNDLE_TRIPLE\=ios
+    export SHALLOW_BUNDLE_ios_macabi\=NO
+    export SHALLOW_BUNDLE_macos\=NO
+    export SHARED_DERIVED_FILE_DIR\=/Users/runner/work/SymbOS/SymbOS/apple/build/Release-iphoneos/DerivedSources
+    export SHARED_FRAMEWORKS_FOLDER_PATH\=Halcyon.app/SharedFrameworks
+    export SHARED_PRECOMPS_DIR\=/Users/runner/work/SymbOS/SymbOS/apple/build/SharedPrecompiledHeaders
+    export SHARED_SUPPORT_FOLDER_PATH\=Halcyon.app/SharedSupport
+    export SKIP_INSTALL\=NO
+    export SOURCE_ROOT\=/Users/runner/work/SymbOS/SymbOS/apple
+    export SRCROOT\=/Users/runner/work/SymbOS/SymbOS/apple
+    export STRINGSDATA_DIR\=/Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release-iphoneos/HalcyonIOS.build/Objects-normal/undefined_arch
+    export STRINGSDATA_ROOT\=/Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release-iphoneos/HalcyonIOS.build
+    export STRINGS_FILE_INFOPLIST_RENAME\=YES
+    export STRINGS_FILE_OUTPUT_ENCODING\=binary
+    export STRING_CATALOG_GENERATE_SYMBOLS\=NO
+    export STRIP_BITCODE_FROM_COPIED_FILES\=YES
+    export STRIP_INSTALLED_PRODUCT\=YES
+    export STRIP_STYLE\=all
+    export STRIP_SWIFT_SYMBOLS\=YES
+    export SUPPORTED_DEVICE_FAMILIES\=1,2
+    export SUPPORTED_PLATFORMS\=iphoneos\ iphonesimulator
+    export SUPPORTS_MACCATALYST\=NO
+    export SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD\=NO
+    export SUPPORTS_ON_DEMAND_RESOURCES\=YES
+    export SUPPORTS_TEXT_BASED_API\=NO
+    export SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD\=YES
+    export SUPPRESS_WARNINGS\=NO
+    export SWIFT_COMPILATION_MODE\=wholemodule
+    export SWIFT_EMIT_CONST_VALUE_PROTOCOLS\=AppIntent\ EntityQuery\ AppEntity\ TransientEntity\ AppEnum\ AppShortcutProviding\ AppShortcutsProvider\ AnyResolverProviding\ AppIntentsPackage\ DynamicOptionsProvider\ _IntentValueRepresentable\ _AssistantIntentsProvider\ _GenerativeFunctionExtractable\ IntentValueQuery\ Resolver\ AppExtension\ ExtensionPointDefining
+    export SWIFT_EMIT_LOC_STRINGS\=NO
+    export SWIFT_ENABLE_EXPLICIT_MODULES\=YES
+    export SWIFT_OBJC_BRIDGING_HEADER\=Shared/Bridge/Halcyon-Bridging-Header.h
+    export SWIFT_OPTIMIZATION_LEVEL\=-O
+    export SWIFT_PLATFORM_TARGET_PREFIX\=ios
+    export SWIFT_RESPONSE_FILE_PATH_normal_arm64\=/Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release-iphoneos/HalcyonIOS.build/Objects-normal/arm64/Halcyon.SwiftFileList
+    export SWIFT_VERSION\=5.0
+    export SYMROOT\=/Users/runner/work/SymbOS/SymbOS/apple/build
+    export SYSTEM_ADMIN_APPS_DIR\=/Applications/Utilities
+    export SYSTEM_APPS_DIR\=/Applications
+    export SYSTEM_CORE_SERVICES_DIR\=/System/Library/CoreServices
+    export SYSTEM_DEMOS_DIR\=/Applications/Extras
+    export SYSTEM_DEVELOPER_APPS_DIR\=/Applications/Xcode_26.3.app/Contents/Developer/Applications
+    export SYSTEM_DEVELOPER_BIN_DIR\=/Applications/Xcode_26.3.app/Contents/Developer/usr/bin
+    export SYSTEM_DEVELOPER_DEMOS_DIR\=/Applications/Xcode_26.3.app/Contents/Developer/Applications/Utilities/Built\ Examples
+    export SYSTEM_DEVELOPER_DIR\=/Applications/Xcode_26.3.app/Contents/Developer
+    export SYSTEM_DEVELOPER_DOC_DIR\=/Applications/Xcode_26.3.app/Contents/Developer/ADC\ Reference\ Library
+    export SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR\=/Applications/Xcode_26.3.app/Contents/Developer/Applications/Graphics\ Tools
+    export SYSTEM_DEVELOPER_JAVA_TOOLS_DIR\=/Applications/Xcode_26.3.app/Contents/Developer/Applications/Java\ Tools
+    export SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR\=/Applications/Xcode_26.3.app/Contents/Developer/Applications/Performance\ Tools
+    export SYSTEM_DEVELOPER_RELEASENOTES_DIR\=/Applications/Xcode_26.3.app/Contents/Developer/ADC\ Reference\ Library/releasenotes
+    export SYSTEM_DEVELOPER_TOOLS\=/Applications/Xcode_26.3.app/Contents/Developer/Tools
+    export SYSTEM_DEVELOPER_TOOLS_DOC_DIR\=/Applications/Xcode_26.3.app/Contents/Developer/ADC\ Reference\ Library/documentation/DeveloperTools
+    export SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR\=/Applications/Xcode_26.3.app/Contents/Developer/ADC\ Reference\ Library/releasenotes/DeveloperTools
+    export SYSTEM_DEVELOPER_USR_DIR\=/Applications/Xcode_26.3.app/Contents/Developer/usr
+    export SYSTEM_DEVELOPER_UTILITIES_DIR\=/Applications/Xcode_26.3.app/Contents/Developer/Applications/Utilities
+    export SYSTEM_DEXT_INSTALL_PATH\=/System/Library/DriverExtensions
+    export SYSTEM_DOCUMENTATION_DIR\=/Library/Documentation
+    export SYSTEM_EXTENSIONS_FOLDER_PATH\=Halcyon.app/SystemExtensions
+    export SYSTEM_EXTENSIONS_FOLDER_PATH_SHALLOW_BUNDLE_NO\=Halcyon.app/Library/SystemExtensions
+    export SYSTEM_EXTENSIONS_FOLDER_PATH_SHALLOW_BUNDLE_YES\=Halcyon.app/SystemExtensions
+    export SYSTEM_KEXT_INSTALL_PATH\=/System/Library/Extensions
+    export SYSTEM_LIBRARY_DIR\=/System/Library
+    export TAPI_DEMANGLE\=YES
+    export TAPI_ENABLE_PROJECT_HEADERS\=NO
+    export TAPI_LANGUAGE\=objective-c
+    export TAPI_LANGUAGE_STANDARD\=compiler-default
+    export TAPI_USE_SRCROOT\=YES
+    export TAPI_VERIFY_MODE\=Pedantic
+    export TARGETED_DEVICE_FAMILY\=1,2
+    export TARGETNAME\=HalcyonIOS
+    export TARGET_BUILD_DIR\=/Users/runner/work/SymbOS/SymbOS/apple/build/Release-iphoneos
+    export TARGET_NAME\=HalcyonIOS
+    export TARGET_TEMP_DIR\=/Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release-iphoneos/HalcyonIOS.build
+    export TEMP_DIR\=/Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release-iphoneos/HalcyonIOS.build
+    export TEMP_FILES_DIR\=/Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release-iphoneos/HalcyonIOS.build
+    export TEMP_FILE_DIR\=/Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release-iphoneos/HalcyonIOS.build
+    export TEMP_ROOT\=/Users/runner/work/SymbOS/SymbOS/apple/build
+    export TEMP_SANDBOX_DIR\=/Users/runner/work/SymbOS/SymbOS/apple/build/TemporaryTaskSandboxes
+    export TEST_FRAMEWORK_SEARCH_PATHS\=\ /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks\ /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.2.sdk/Developer/Library/Frameworks
+    export TEST_LIBRARY_SEARCH_PATHS\=\ /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib
+    export TOOLCHAINS\=com.apple.dt.toolchain.Metal.32023.864\ com.apple.dt.toolchain.XcodeDefault
+    export TOOLCHAIN_DIR\=/var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.3.7003.10.4xhYVM/Metal.xctoolchain
+    export TOOLCHAIN_VERSION\=32023.864
+    export TREAT_MISSING_BASELINES_AS_TEST_FAILURES\=NO
+    export TREAT_MISSING_SCRIPT_PHASE_OUTPUTS_AS_ERRORS\=NO
+    export UID\=501
+    export UNINSTALLED_PRODUCTS_DIR\=/Users/runner/work/SymbOS/SymbOS/apple/build/UninstalledProducts
+    export UNLOCALIZED_RESOURCES_FOLDER_PATH\=Halcyon.app
+    export UNLOCALIZED_RESOURCES_FOLDER_PATH_SHALLOW_BUNDLE_NO\=Halcyon.app/Resources
+    export UNLOCALIZED_RESOURCES_FOLDER_PATH_SHALLOW_BUNDLE_YES\=Halcyon.app
+    export UNSTRIPPED_PRODUCT\=NO
+    export URL_SCHEME\=halcyon
+    export USER\=runner
+    export USER_APPS_DIR\=/Users/runner/Applications
+    export USER_LIBRARY_DIR\=/Users/runner/Library
+    export USE_DYNAMIC_NO_PIC\=YES
+    export USE_HEADERMAP\=YES
+    export USE_HEADER_SYMLINKS\=NO
+    export VALIDATE_DEVELOPMENT_ASSET_PATHS\=YES_ERROR
+    export VALIDATE_PRODUCT\=NO
+    export VALID_ARCHS\=arm64\ arm64e\ armv7\ armv7s
+    export VERBOSE_PBXCP\=NO
+    export VERSIONPLIST_PATH\=Halcyon.app/version.plist
+    export VERSION_INFO_BUILDER\=runner
+    export VERSION_INFO_FILE\=Halcyon_vers.c
+    export VERSION_INFO_STRING\=\"@\(\#\)PROGRAM:Halcyon\ \ PROJECT:Halcyon-6\"
+    export WEBSITE_URL\=https://harkhowalia-1.github.io/SymbOS
+    export WORKSPACE_DIR\=/Users/runner/work/SymbOS/SymbOS/apple/Halcyon.xcodeproj
+    export WRAPPER_EXTENSION\=app
+    export WRAPPER_NAME\=Halcyon.app
+    export WRAPPER_SUFFIX\=.app
+    export WRAP_ASSET_PACKS_IN_SEPARATE_DIRECTORIES\=NO
+    export XCODE_APP_SUPPORT_DIR\=/Applications/Xcode_26.3.app/Contents/Developer/Library/Xcode
+    export XCODE_PRODUCT_BUILD_VERSION\=17C529
+    export XCODE_VERSION_ACTUAL\=2630
+    export XCODE_VERSION_MAJOR\=2600
+    export XCODE_VERSION_MINOR\=2630
+    export XPCSERVICES_FOLDER_PATH\=Halcyon.app/XPCServices
+    export YACC\=yacc
+    export _DISCOVER_COMMAND_LINE_LINKER_INPUTS\=YES
+    export _DISCOVER_COMMAND_LINE_LINKER_INPUTS_INCLUDE_WL\=YES
+    export _LD_MULTIARCH\=YES
+    export _WRAPPER_CONTENTS_DIR_SHALLOW_BUNDLE_NO\=/Contents
+    export _WRAPPER_PARENT_PATH_SHALLOW_BUNDLE_NO\=/..
+    export _WRAPPER_RESOURCES_DIR_SHALLOW_BUNDLE_NO\=/Resources
+    export __DIAGNOSE_DEPRECATED_ARCHS\=YES
+    export __IS_NOT_MACOS\=YES
+    export __IS_NOT_MACOS_macosx\=NO
+    export __IS_NOT_SIMULATOR\=YES
+    export __IS_NOT_SIMULATOR_simulator\=NO
+    export arch\=undefined_arch
+    export variant\=normal
+    /bin/sh -c /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release-iphoneos/HalcyonIOS.build/Script-E076FF7713E7DEF96485C6F5.sh
+
+Copy /Users/runner/work/SymbOS/SymbOS/apple/build/Release-iphoneos/Halcyon.app/PlugIns/HalcyonWidgets.appex /Users/runner/work/SymbOS/SymbOS/apple/build/Release-iphoneos/HalcyonWidgets.appex (in target 'HalcyonIOS' from project 'Halcyon')
+    cd /Users/runner/work/SymbOS/SymbOS/apple
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks -remove-static-executable /Users/runner/work/SymbOS/SymbOS/apple/build/Release-iphoneos/HalcyonWidgets.appex /Users/runner/work/SymbOS/SymbOS/apple/build/Release-iphoneos/Halcyon.app/PlugIns
+
+ProcessInfoPlistFile /Users/runner/work/SymbOS/SymbOS/apple/build/Release-iphoneos/Halcyon.app/Info.plist /Users/runner/work/SymbOS/SymbOS/apple/iOS/Info.plist (in target 'HalcyonIOS' from project 'Halcyon')
+    cd /Users/runner/work/SymbOS/SymbOS/apple
+    builtin-infoPlistUtility /Users/runner/work/SymbOS/SymbOS/apple/iOS/Info.plist -producttype com.apple.product-type.application -genpkginfo /Users/runner/work/SymbOS/SymbOS/apple/build/Release-iphoneos/Halcyon.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -additionalcontentfile /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release-iphoneos/HalcyonIOS.build/assetcatalog_generated_info.plist -scanforprivacyfile /Users/runner/work/SymbOS/SymbOS/apple/build/Release-iphoneos/Halcyon.app/PlugIns/HalcyonWidgets.appex -requiredArchitecture arm64 -o /Users/runner/work/SymbOS/SymbOS/apple/build/Release-iphoneos/Halcyon.app/Info.plist
+
+ExtractAppIntentsMetadata (in target 'HalcyonIOS' from project 'Halcyon')
+    cd /Users/runner/work/SymbOS/SymbOS/apple
+    /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.3.7003.10.4xhYVM/Metal.xctoolchain --module-name Halcyon --sdk-root /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.2.sdk --xcode-version 17C529 --platform-family iOS --deployment-target 18.0 --bundle-identifier io.github.harkhowalia1.halcyon --output /Users/runner/work/SymbOS/SymbOS/apple/build/Release-iphoneos/Halcyon.app --target-triple arm64-apple-ios18.0 --binary-file /Users/runner/work/SymbOS/SymbOS/apple/build/Release-iphoneos/Halcyon.app/Halcyon --dependency-file /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release-iphoneos/HalcyonIOS.build/Objects-normal/arm64/Halcyon_dependency_info.dat --stringsdata-file /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release-iphoneos/HalcyonIOS.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release-iphoneos/HalcyonIOS.build/Objects-normal/arm64/Halcyon.SwiftFileList --metadata-file-list /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release-iphoneos/HalcyonIOS.build/Halcyon.DependencyMetadataFileList --static-metadata-file-list /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release-iphoneos/HalcyonIOS.build/Halcyon.DependencyStaticMetadataFileList --swift-const-vals-list /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release-iphoneos/HalcyonIOS.build/Objects-normal/arm64/Halcyon.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --validate-assistant-intents --no-app-shortcuts-localization
+2026-10-15 00:24:22.389 appintentsmetadataprocessor[3162:13012] Starting appintentsmetadataprocessor export
+2026-10-15 00:24:22.587 appintentsmetadataprocessor[3162:13012] Writing Metadata.appintents
+2026-10-15 00:24:22.587 appintentsmetadataprocessor[3162:13012] Metadata root: /Users/runner/work/SymbOS/SymbOS/apple/build/Release-iphoneos/Halcyon.app/Metadata.appintents
+
+CopySwiftLibs /Users/runner/work/SymbOS/SymbOS/apple/build/Release-iphoneos/Halcyon.app (in target 'HalcyonIOS' from project 'Halcyon')
+    cd /Users/runner/work/SymbOS/SymbOS/apple
+    builtin-swiftStdLibTool --copy --verbose --scan-executable /Users/runner/work/SymbOS/SymbOS/apple/build/Release-iphoneos/Halcyon.app/Halcyon --scan-folder /Users/runner/work/SymbOS/SymbOS/apple/build/Release-iphoneos/Halcyon.app/Frameworks --scan-folder /Users/runner/work/SymbOS/SymbOS/apple/build/Release-iphoneos/Halcyon.app/PlugIns --scan-folder /Users/runner/work/SymbOS/SymbOS/apple/build/Release-iphoneos/Halcyon.app/SystemExtensions --scan-folder /Users/runner/work/SymbOS/SymbOS/apple/build/Release-iphoneos/Halcyon.app/Extensions --platform iphoneos --toolchain /var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.3.7003.10.4xhYVM/Metal.xctoolchain --toolchain /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Users/runner/work/SymbOS/SymbOS/apple/build/Release-iphoneos/Halcyon.app/Frameworks --strip-bitcode --strip-bitcode-tool /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release-iphoneos/HalcyonIOS.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os --back-deploy-swift-span
+Ignoring --strip-bitcode because --sign was not passed
+
+ValidateEmbeddedBinary /Users/runner/work/SymbOS/SymbOS/apple/build/Release-iphoneos/Halcyon.app/PlugIns/HalcyonWidgets.appex (in target 'HalcyonIOS' from project 'Halcyon')
+    cd /Users/runner/work/SymbOS/SymbOS/apple
+    /Applications/Xcode_26.3.app/Contents/Developer/usr/bin/embeddedBinaryValidationUtility /Users/runner/work/SymbOS/SymbOS/apple/build/Release-iphoneos/Halcyon.app/PlugIns/HalcyonWidgets.appex -info-plist-path /Users/runner/work/SymbOS/SymbOS/apple/build/Release-iphoneos/Halcyon.app/Info.plist
+
+GenerateDSYMFile /Users/runner/work/SymbOS/SymbOS/apple/build/Release-iphoneos/Halcyon.app.dSYM /Users/runner/work/SymbOS/SymbOS/apple/build/Release-iphoneos/Halcyon.app/Halcyon (in target 'HalcyonIOS' from project 'Halcyon')
+    cd /Users/runner/work/SymbOS/SymbOS/apple
+    /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/runner/work/SymbOS/SymbOS/apple/build/Release-iphoneos/Halcyon.app/Halcyon -o /Users/runner/work/SymbOS/SymbOS/apple/build/Release-iphoneos/Halcyon.app.dSYM
+warning: (arm64)  skipping debug map object with duplicate name and timestamp: 1970-01-01 00:00:00.000000000 /Users/runner/work/SymbOS/SymbOS/apple/../core/out/ios/libHalcyonCore.a(aacdec.o)
+warning: (arm64)  skipping debug map object with duplicate name and timestamp: 1970-01-01 00:00:00.000000000 /Users/runner/work/SymbOS/SymbOS/apple/../core/out/ios/libHalcyonCore.a(h264dec.o)
+warning: (arm64)  skipping debug map object with duplicate name and timestamp: 1970-01-01 00:00:00.000000000 /Users/runner/work/SymbOS/SymbOS/apple/../core/out/ios/libHalcyonCore.a(options.o)
+warning: (arm64)  skipping debug map object with duplicate name and timestamp: 1970-01-01 00:00:00.000000000 /Users/runner/work/SymbOS/SymbOS/apple/../core/out/ios/libHalcyonCore.a(pcm.o)
+warning: (arm64)  skipping debug map object with duplicate name and timestamp: 1970-01-01 00:00:00.000000000 /Users/runner/work/SymbOS/SymbOS/apple/../core/out/ios/libHalcyonCore.a(utils.o)
+
+AppIntentsSSUTraining (in target 'HalcyonIOS' from project 'Halcyon')
+    cd /Users/runner/work/SymbOS/SymbOS/apple
+    /Applications/Xcode_26.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsnltrainingprocessor --infoplist-path /Users/runner/work/SymbOS/SymbOS/apple/build/Release-iphoneos/Halcyon.app/Info.plist --temp-dir-path /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release-iphoneos/HalcyonIOS.build/ssu --bundle-id io.github.harkhowalia1.halcyon --product-path /Users/runner/work/SymbOS/SymbOS/apple/build/Release-iphoneos/Halcyon.app --extracted-metadata-path /Users/runner/work/SymbOS/SymbOS/apple/build/Release-iphoneos/Halcyon.app/Metadata.appintents --metadata-file-list /Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release-iphoneos/HalcyonIOS.build/Halcyon.DependencyMetadataFileList --archive-ssu-assets
+2026-10-15 00:24:22.614 appintentsnltrainingprocessor[3165:13017] Parsing options for appintentsnltrainingprocessor
+2026-10-15 00:24:22.615 appintentsnltrainingprocessor[3165:13017] Starting AppIntents SSU YAML Generation
+2026-10-15 00:24:22.629 appintentsnltrainingprocessor[3165:13017] Training 'Open ${SymbianAppEntity} in ${+applicationName}|Start ${SymbianAppEntity} with ${+applicationName}' for en
+2026-10-15 00:24:22.630 appintentsnltrainingprocessor[3165:13017] Training Negative Phrases '' for en
+2026-10-15 00:24:22.630 appintentsnltrainingprocessor[3165:13017] Application name 'Halcyon' for en
+2026-10-15 00:24:22.654 appintentsnltrainingprocessor[3165:13017] Generated AppIntents SSU YAML files in file:///Users/runner/work/SymbOS/SymbOS/apple/build/Halcyon.build/Release-iphoneos/HalcyonIOS.build/ssu/
+2026-10-15 00:24:22.655 appintentsnltrainingprocessor[3165:13017] Copied AppIntents SSU YAML files to file:///Users/runner/work/SymbOS/SymbOS/apple/build/Release-iphoneos/Halcyon.app/Metadata.appintents/
+Archiving all locales.
+[------------------------------------------------------------] 0% archiving en[🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢] 100% archived en[🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢🁢] 100% archived 1 locales/Users/runner/work/SymbOS/SymbOS/apple/build/Release-iphoneos/Halcyon.app/Metadata.appintents/nlu
+/Users/runner/work/SymbOS/SymbOS/apple/build/Release-iphoneos/Halcyon.app/Metadata.appintents/nlu/04e22022fcef6e74eb183ce616c2eca6.version
+
+
+RegisterExecutionPolicyException /Users/runner/work/SymbOS/SymbOS/apple/build/Release-iphoneos/Halcyon.app (in target 'HalcyonIOS' from project 'Halcyon')
+    cd /Users/runner/work/SymbOS/SymbOS/apple
+    builtin-RegisterExecutionPolicyException /Users/runner/work/SymbOS/SymbOS/apple/build/Release-iphoneos/Halcyon.app
+
+Validate /Users/runner/work/SymbOS/SymbOS/apple/build/Release-iphoneos/Halcyon.app (in target 'HalcyonIOS' from project 'Halcyon')
+    cd /Users/runner/work/SymbOS/SymbOS/apple
+    builtin-validationUtility /Users/runner/work/SymbOS/SymbOS/apple/build/Release-iphoneos/Halcyon.app -shallow-bundle -infoplist-subpath Info.plist
+
+Touch /Users/runner/work/SymbOS/SymbOS/apple/build/Release-iphoneos/Halcyon.app (in target 'HalcyonIOS' from project 'Halcyon')
+    cd /Users/runner/work/SymbOS/SymbOS/apple
+    /usr/bin/touch -c /Users/runner/work/SymbOS/SymbOS/apple/build/Release-iphoneos/Halcyon.app
+
+note: Run script build phase 'Copy emulator core assets' will be run during every build because the option to run the script phase "Based on dependency analysis" is unchecked. (in target 'HalcyonIOS' from project 'Halcyon')
+** BUILD SUCCEEDED **
+

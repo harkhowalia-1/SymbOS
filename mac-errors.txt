@@ -1,0 +1,5 @@
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+ld: symbol(s) not found for architecture arm64
+ld: warning: Could not parse or use implicit file '/Applications/Xcode_26.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/SwiftUICore.framework/Versions/A/SwiftUICore.tbd': cannot link directly with 'SwiftUICore' because product being built is not an allowed client of it
+ld: warning: ignoring duplicate libraries: '-lc++'
+Undefined symbols for architecture arm64:
