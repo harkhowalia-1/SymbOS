@@ -1,0 +1,300 @@
+      |       ^
+/Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.2.sdk/usr/include/c++/v1/__memory/unique_ptr.h:250:5: note: in instantiation of member function 'std::unique_ptr<eka2l1::epoc::sms::sms_pdu>::reset' requested here
+  250 |     reset(__u.release());
+      |     ^
+/Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/services/src/sms/common.cpp:76:18: note: in instantiation of function template specialization 'std::unique_ptr<eka2l1::epoc::sms::sms_pdu>::operator=<eka2l1::epoc::sms::sms_submit, std::default_delete<eka2l1::epoc::sms::sms_submit>, void, void>' requested here
+   76 |             pdu_ = std::make_unique<sms_submit>();
+      |                  ^
+1 warning generated.
+[850/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/socket/agent/genconn.cpp.o
+[851/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/sms/settings.cpp.o
+[852/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/socket/protocol.cpp.o
+[853/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/socket/connection.cpp.o
+[854/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/socket/netdb.cpp.o
+[855/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/socket/resolver.cpp.o
+[856/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/socket/socket.cpp.o
+[857/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/socket/server.cpp.o
+In file included from /Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/services/src/socket/server.cpp:21:
+In file included from /Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/common/include/common/cvt.h:22:
+In file included from /Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/common/include/common/types.h:23:
+In file included from /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.2.sdk/usr/include/c++/v1/functional:553:
+In file included from /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.2.sdk/usr/include/c++/v1/__functional/function.h:26:
+/Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.2.sdk/usr/include/c++/v1/__memory/unique_ptr.h:78:5: warning: delete called on 'eka2l1::epoc::socket::connect_agent' that is abstract but has non-virtual destructor [-Wdelete-abstract-non-virtual-dtor]
+   78 |     delete __ptr;
+      |     ^
+/Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.2.sdk/usr/include/c++/v1/__memory/unique_ptr.h:300:7: note: in instantiation of member function 'std::default_delete<eka2l1::epoc::socket::connect_agent>::operator()' requested here
+  300 |       __deleter_(__tmp);
+      |       ^
+/Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.2.sdk/usr/include/c++/v1/__memory/unique_ptr.h:269:71: note: in instantiation of member function 'std::unique_ptr<eka2l1::epoc::socket::connect_agent>::reset' requested here
+  269 |   _LIBCPP_HIDE_FROM_ABI _LIBCPP_CONSTEXPR_SINCE_CXX23 ~unique_ptr() { reset(); }
+      |                                                                       ^
+/Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.2.sdk/usr/include/c++/v1/__memory/construct_at.h:66:11: note: in instantiation of member function 'std::unique_ptr<eka2l1::epoc::socket::connect_agent>::~unique_ptr' requested here
+   66 |   __loc->~_Tp();
+      |           ^
+1 warning generated.
+[858/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/ui/cap/coestorage.cpp.o
+[859/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/sysagt/sysagt.cpp.o
+[860/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/ui/cap/eiksrv.cpp.o
+[861/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/ui/cap/sgc.cpp.o
+[862/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/ui/cap/oom_app.cpp.o
+[863/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/ui/icon/icon.cpp.o
+[864/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/ui/plugins/keylocknof.cpp.o
+[865/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/ui/icon/init.cpp.o
+[866/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/ui/plugins/notenof.cpp.o
+[867/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/ui/skin/ops.cpp.o
+[868/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/ui/skin/icon_cfg.cpp.o
+[869/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/ui/skin/chunk_maintainer.cpp.o
+[870/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/ui/skin/settings.cpp.o
+[871/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/ui/skin/server.cpp.o
+[872/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/ui/skin/skn.cpp.o
+[873/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/ui/skin/bitmap_store.cpp.o
+[874/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/ui/view/queue.cpp.o
+[875/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/ui/skin/utils.cpp.o
+[876/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/ui/view/view.cpp.o
+[877/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/ui/appserver.cpp.o
+[878/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/uiss/uiss.cpp.o
+[879/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/ui/eikappui.cpp.o
+[880/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/unipertar/unipertar.cpp.o
+[881/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/window/classes/plugins/anim/clock/clock.cpp.o
+[882/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/window/classes/plugins/anim/clock/factory.cpp.o
+[883/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/window/classes/plugins/anim/clock/messagewin.cpp.o
+[884/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/window/classes/plugins/anim/overall.cpp.o
+[885/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/window/classes/plugins/animdll.cpp.o
+[886/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/window/classes/plugins/clickdll.cpp.o
+[887/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/window/classes/plugins/graphics.cpp.o
+[888/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/window/classes/plugins/sprite.cpp.o
+[889/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/window/classes/bitmap.cpp.o
+[890/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/window/classes/scrdvc.cpp.o
+[891/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/window/classes/dsa.cpp.o
+/Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/services/src/window/classes/dsa.cpp:258:18: warning: comparison of different enumeration types in switch statement ('ws_dsa_op' and 'eka2l1::ws_dsa_op_old') [-Wenum-compare-switch]
+  241 |             case ws_dsa_old_free:
+      |                  ^~~~~~~~~~~~~~~
+/Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/services/src/window/classes/dsa.cpp:254:18: warning: comparison of different enumeration types in switch statement ('ws_dsa_op' and 'eka2l1::ws_dsa_op_old') [-Wenum-compare-switch]
+  241 |             switch (op) {
+      |                     ~~
+  242 |             case ws_dsa_old_get_sync_thread:
+  243 |                 get_sync_info(ctx, cmd);
+  244 |                 break;
+  245 | 
+  246 |             case ws_dsa_old_request:
+  247 |                 request_access(ctx, cmd);
+  248 |                 break;
+  249 | 
+  250 |             case ws_dsa_old_get_region:
+  251 |                 get_region(ctx, cmd);
+  252 |                 break;
+  253 | 
+  254 |             case ws_dsa_old_cancel:
+      |                  ^~~~~~~~~~~~~~~~~
+/Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/services/src/window/classes/dsa.cpp:250:18: warning: comparison of different enumeration types in switch statement ('ws_dsa_op' and 'eka2l1::ws_dsa_op_old') [-Wenum-compare-switch]
+  241 |             switch (op) {
+      |                     ~~
+  242 |             case ws_dsa_old_get_sync_thread:
+  243 |                 get_sync_info(ctx, cmd);
+  244 |                 break;
+  245 | 
+  246 |             case ws_dsa_old_request:
+  247 |                 request_access(ctx, cmd);
+  248 |                 break;
+  249 | 
+  250 |             case ws_dsa_old_get_region:
+      |                  ^~~~~~~~~~~~~~~~~~~~~
+/Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/services/src/window/classes/dsa.cpp:246:18: warning: comparison of different enumeration types in switch statement ('ws_dsa_op' and 'eka2l1::ws_dsa_op_old') [-Wenum-compare-switch]
+  241 |             switch (op) {
+      |                     ~~
+  242 |             case ws_dsa_old_get_sync_thread:
+  243 |                 get_sync_info(ctx, cmd);
+  244 |                 break;
+  245 | 
+  246 |             case ws_dsa_old_request:
+      |                  ^~~~~~~~~~~~~~~~~~
+/Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/services/src/window/classes/dsa.cpp:242:18: warning: comparison of different enumeration types in switch statement ('ws_dsa_op' and 'eka2l1::ws_dsa_op_old') [-Wenum-compare-switch]
+  241 |             switch (op) {
+      |                     ~~
+  242 |             case ws_dsa_old_get_sync_thread:
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+5 warnings generated.
+[892/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/window/classes/gctx.cpp.o
+[893/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/window/classes/winbase.cpp.o
+[894/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/window/classes/gstore.cpp.o
+[895/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/window/classes/wingroup.cpp.o
+[896/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/window/classes/wsobj.cpp.o
+[897/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/window/classes/winuser.cpp.o
+[898/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/window/common.cpp.o
+[899/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/window/bitmap_cache.cpp.o
+[900/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/window/fifo.cpp.o
+[901/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/window/io.cpp.o
+[902/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/window/scheduler.cpp.o
+[903/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/window/util.cpp.o
+[904/968] Linking CXX static library src/emu/system/libepoc.a
+[905/968] Running utility command for mediaclientaudiostream
+[906/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/window/screen.cpp.o
+/Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/services/src/window/screen.cpp:154:9: warning: 'delete' applied to a pointer that was allocated with 'new[]'; did you mean 'delete[]'? [-Wmismatched-new-delete]
+  154 |         delete pitcher;
+      |         ^
+      |               []
+/Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/services/src/window/screen.cpp:146:33: note: allocated with 'new[]' here
+  146 |         std::uint8_t *pitcher = new std::uint8_t[line_pitch];
+      |                                 ^
+1 warning generated.
+[907/968] Building CXX object src/emu/ldd/CMakeFiles/epocldd.dir/src/collection.cpp.o
+[908/968] Building CXX object src/emu/ldd/CMakeFiles/epocldd.dir/src/ecomm/ecomm.cpp.o
+[909/968] Building CXX object src/emu/ldd/CMakeFiles/epocldd.dir/src/ekeyb/ekeyb.cpp.o
+[910/968] Building CXX object src/emu/ldd/CMakeFiles/epocldd.dir/src/hal/hal.cpp.o
+[911/968] Building CXX object src/emu/services/CMakeFiles/epocservs.dir/src/window/window.cpp.o
+/Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/services/src/window/window.cpp:1664:17: warning: 7 enumeration values not handled in switch: 'mouse_button_4', 'mouse_button_5', 'mouse_button_6'... [-Wswitch]
+ 1664 |         switch (driver_evt_.mouse_.button_) {
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/services/src/window/window.cpp:1664:17: note: add missing switch cases
+ 1664 |         switch (driver_evt_.mouse_.button_) {
+      |                 ^
+1 warning generated.
+[912/968] Building CXX object src/emu/ldd/CMakeFiles/epocldd.dir/src/oldcamera/oldcamera.cpp.o
+[913/968] Building CXX object src/emu/ldd/CMakeFiles/epocldd.dir/src/mmcif/mmcif.cpp.o
+[914/968] Running utility command for mediaclientvideo
+[915/968] Linking CXX static library src/emu/services/libepocservs.a
+[916/968] Building CXX object src/emu/ldd/CMakeFiles/epocldd.dir/src/videodriver/videodriver.cpp.o
+[917/968] Building CXX object src/emu/j2me/CMakeFiles/j2me.dir/src/interface.cpp.o
+[918/968] Building CXX object src/emu/j2me/CMakeFiles/j2me.dir/src/applist.cpp.o
+[919/968] Linking CXX static library src/emu/ldd/libepocldd.a
+[920/968] Running utility command for postingsurfacefactory
+[921/968] Building CXX object src/emu/j2me/CMakeFiles/j2me.dir/src/common.cpp.o
+[922/968] Running utility command for goommonitor
+[923/968] Building CXX object src/emu/j2me/CMakeFiles/j2me.dir/src/kmidrun.cpp.o
+[924/968] Linking CXX static library src/emu/j2me/libj2me.a
+[925/968] Building CXX object src/emu/dispatch/CMakeFiles/epocdispatch.dir/src/libraries/egl/def.cpp.o
+[926/968] Building CXX object src/emu/gdbstub/CMakeFiles/gdbstub.dir/src/gdbstub.cpp.o
+[927/968] Building CXX object src/emu/dispatch/CMakeFiles/epocdispatch.dir/src/libraries/egl/egl.cpp.o
+In file included from /Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/dispatch/src/libraries/egl/egl.cpp:22:
+/Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/dispatch/include/dispatch/libraries/gles2/def.h:275:14: warning: 'on_texture_destruction' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+  275 |         void on_texture_destruction(gles_driver_texture *texture);
+      |              ^
+/Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/dispatch/include/dispatch/libraries/gles_shared/def.h:117:22: note: overridden virtual function is here
+  117 |         virtual void on_texture_destruction(gles_driver_texture *texture) = 0;
+      |                      ^
+1 warning generated.
+[928/968] Building CXX object src/emu/dispatch/CMakeFiles/epocdispatch.dir/src/libraries/gles_shared/gles_shared.cpp.o
+/Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/dispatch/src/libraries/gles_shared/gles_shared.cpp:2392:113: warning: conditional expression between different enumeration types ('eka2l1::dispatch::(unnamed enum at /Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/dispatch/include/dispatch/libraries/gles2/consts.h:6:5)' and 'eka2l1::dispatch::(unnamed enum at /Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/dispatch/include/dispatch/libraries/gles1/consts.h:6:5)') is deprecated [-Wdeprecated-anon-enum-enum-conversion]
+ 2392 |         if ((unit < GL_TEXTURE0_EMU) || (unit >= (GL_TEXTURE0_EMU + ((ctx->context_type() == EGL_GLES2_CONTEXT) ? GLES2_EMU_MAX_TEXTURE_UNIT_COUNT : GLES1_EMU_MAX_TEXTURE_COUNT)))) {
+      |                                                                                                                 ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+[929/968] Building CXX object src/emu/dispatch/CMakeFiles/epocdispatch.dir/src/libraries/gles1/gles1.cpp.o
+/Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/dispatch/src/libraries/gles1/gles1.cpp:1287:66: warning: arithmetic between different enumeration types ('eka2l1::dispatch::(unnamed enum at /Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/dispatch/include/dispatch/libraries/egl/def.h:52:5)' and 'eka2l1::dispatch::(unnamed enum at /Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/dispatch/include/dispatch/libraries/gles1/consts.h:6:5)') is deprecated [-Wdeprecated-anon-enum-enum-conversion]
+ 1287 |         if ((unit < GL_TEXTURE0_EMU) && (unit >= GL_TEXTURE0_EMU + GLES1_EMU_MAX_TEXTURE_COUNT)) {
+      |                                                  ~~~~~~~~~~~~~~~ ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/dispatch/src/libraries/gles1/gles1.cpp:1304:66: warning: arithmetic between different enumeration types ('eka2l1::dispatch::(unnamed enum at /Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/dispatch/include/dispatch/libraries/egl/def.h:52:5)' and 'eka2l1::dispatch::(unnamed enum at /Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/dispatch/include/dispatch/libraries/gles1/consts.h:6:5)') is deprecated [-Wdeprecated-anon-enum-enum-conversion]
+ 1304 |         if ((unit < GL_TEXTURE0_EMU) && (unit >= GL_TEXTURE0_EMU + GLES1_EMU_MAX_TEXTURE_COUNT)) {
+      |                                                  ~~~~~~~~~~~~~~~ ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/dispatch/src/libraries/gles1/gles1.cpp:1326:66: warning: arithmetic between different enumeration types ('eka2l1::dispatch::(unnamed enum at /Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/dispatch/include/dispatch/libraries/egl/def.h:52:5)' and 'eka2l1::dispatch::(unnamed enum at /Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/dispatch/include/dispatch/libraries/gles1/consts.h:6:5)') is deprecated [-Wdeprecated-anon-enum-enum-conversion]
+ 1326 |         if ((unit < GL_TEXTURE0_EMU) && (unit >= GL_TEXTURE0_EMU + GLES1_EMU_MAX_TEXTURE_COUNT)) {
+      |                                                  ~~~~~~~~~~~~~~~ ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/dispatch/src/libraries/gles1/gles1.cpp:2203:64: warning: arithmetic between different enumeration types ('eka2l1::dispatch::(unnamed enum at /Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/dispatch/include/dispatch/libraries/egl/def.h:52:5)' and 'eka2l1::dispatch::(unnamed enum at /Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/dispatch/include/dispatch/libraries/gles1/consts.h:6:5)') is deprecated [-Wdeprecated-anon-enum-enum-conversion]
+ 2203 |         if ((light < GL_LIGHT0_EMU) || (light >= GL_LIGHT0_EMU + GLES1_EMU_MAX_LIGHT)) {
+      |                                                  ~~~~~~~~~~~~~ ^ ~~~~~~~~~~~~~~~~~~~
+/Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/dispatch/src/libraries/gles1/gles1.cpp:2251:64: warning: arithmetic between different enumeration types ('eka2l1::dispatch::(unnamed enum at /Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/dispatch/include/dispatch/libraries/egl/def.h:52:5)' and 'eka2l1::dispatch::(unnamed enum at /Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/dispatch/include/dispatch/libraries/gles1/consts.h:6:5)') is deprecated [-Wdeprecated-anon-enum-enum-conversion]
+ 2251 |         if ((light < GL_LIGHT0_EMU) || (light >= GL_LIGHT0_EMU + GLES1_EMU_MAX_LIGHT)) {
+      |                                                  ~~~~~~~~~~~~~ ^ ~~~~~~~~~~~~~~~~~~~
+/Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/dispatch/src/libraries/gles1/gles1.cpp:2331:64: warning: arithmetic between different enumeration types ('eka2l1::dispatch::(unnamed enum at /Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/dispatch/include/dispatch/libraries/egl/def.h:52:5)' and 'eka2l1::dispatch::(unnamed enum at /Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/dispatch/include/dispatch/libraries/gles1/consts.h:6:5)') is deprecated [-Wdeprecated-anon-enum-enum-conversion]
+ 2331 |         if ((light < GL_LIGHT0_EMU) || (light >= GL_LIGHT0_EMU + GLES1_EMU_MAX_LIGHT)) {
+      |                                                  ~~~~~~~~~~~~~ ^ ~~~~~~~~~~~~~~~~~~~
+6 warnings generated.
+[930/968] Building CXX object src/emu/dispatch/CMakeFiles/epocdispatch.dir/src/libraries/gles1/shadergen.cpp.o
+[931/968] Building CXX object src/emu/dispatch/CMakeFiles/epocdispatch.dir/src/libraries/gles1/shaderman.cpp.o
+[932/968] Building CXX object src/emu/dispatch/CMakeFiles/epocdispatch.dir/src/libraries/buffer_pusher.cpp.o
+[933/968] Building CXX object src/emu/dispatch/CMakeFiles/epocdispatch.dir/src/libraries/sysutils/functions.cpp.o
+[934/968] Building CXX object src/emu/dispatch/CMakeFiles/epocdispatch.dir/src/libraries/gles2/gles2.cpp.o
+In file included from /Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/dispatch/src/libraries/gles2/gles2.cpp:22:
+/Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/dispatch/include/dispatch/libraries/gles2/def.h:275:14: warning: 'on_texture_destruction' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+  275 |         void on_texture_destruction(gles_driver_texture *texture);
+      |              ^
+/Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/dispatch/include/dispatch/libraries/gles_shared/def.h:117:22: note: overridden virtual function is here
+  117 |         virtual void on_texture_destruction(gles_driver_texture *texture) = 0;
+      |                      ^
+1 warning generated.
+[935/968] Building CXX object src/emu/dispatch/CMakeFiles/epocdispatch.dir/src/libraries/register.cpp.o
+[936/968] Building CXX object src/emu/dispatch/CMakeFiles/epocdispatch.dir/src/audio.cpp.o
+[937/968] Building CXX object src/emu/dispatch/CMakeFiles/epocdispatch.dir/src/camera.cpp.o
+[938/968] Building CXX object src/emu/dispatch/CMakeFiles/epocdispatch.dir/src/hui.cpp.o
+[939/968] Building CXX object src/emu/dispatch/CMakeFiles/epocdispatch.dir/src/dispatcher.cpp.o
+In file included from /Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/dispatch/src/dispatcher.cpp:24:
+/Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/dispatch/include/dispatch/libraries/gles2/def.h:275:14: warning: 'on_texture_destruction' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+  275 |         void on_texture_destruction(gles_driver_texture *texture);
+      |              ^
+/Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/dispatch/include/dispatch/libraries/gles_shared/def.h:117:22: note: overridden virtual function is here
+  117 |         virtual void on_texture_destruction(gles_driver_texture *texture) = 0;
+      |                      ^
+1 warning generated.
+[940/968] Building CXX object src/emu/dispatch/CMakeFiles/epocdispatch.dir/src/screen.cpp.o
+[941/968] Building CXX object src/emu/dispatch/CMakeFiles/epocdispatch.dir/src/video.cpp.o
+In file included from /Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/dispatch/src/video.cpp:20:
+In file included from /Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/common/include/common/log.h:22:
+In file included from /Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/external/spdlog/include/spdlog/spdlog.h:12:
+In file included from /Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/external/spdlog/include/spdlog/common.h:10:
+In file included from /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.2.sdk/usr/include/c++/v1/chrono:1009:
+In file included from /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.2.sdk/usr/include/c++/v1/__chrono/formatter.h:20:
+In file included from /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.2.sdk/usr/include/c++/v1/__chrono/convert_to_tm.h:23:
+In file included from /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.2.sdk/usr/include/c++/v1/__chrono/statically_widen.h:17:
+In file included from /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.2.sdk/usr/include/c++/v1/__format/concepts.h:16:
+In file included from /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.2.sdk/usr/include/c++/v1/__format/format_parse_context.h:16:
+In file included from /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.2.sdk/usr/include/c++/v1/string_view:947:
+In file included from /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.2.sdk/usr/include/c++/v1/algorithm:1854:
+In file included from /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.2.sdk/usr/include/c++/v1/__algorithm/for_each.h:16:
+In file included from /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.2.sdk/usr/include/c++/v1/__ranges/movable_box.h:21:
+In file included from /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.2.sdk/usr/include/c++/v1/optional:1302:
+In file included from /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.2.sdk/usr/include/c++/v1/memory:947:
+In file included from /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.2.sdk/usr/include/c++/v1/__memory/inout_ptr.h:16:
+In file included from /Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.2.sdk/usr/include/c++/v1/__memory/shared_ptr.h:35:
+/Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.2.sdk/usr/include/c++/v1/__memory/unique_ptr.h:78:5: warning: delete called on 'eka2l1::common::ro_stream' that is abstract but has non-virtual destructor [-Wdelete-abstract-non-virtual-dtor]
+   78 |     delete __ptr;
+      |     ^
+/Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.2.sdk/usr/include/c++/v1/__memory/unique_ptr.h:300:7: note: in instantiation of member function 'std::default_delete<eka2l1::common::ro_stream>::operator()' requested here
+  300 |       __deleter_(__tmp);
+      |       ^
+/Applications/Xcode_26.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.2.sdk/usr/include/c++/v1/__memory/unique_ptr.h:269:71: note: in instantiation of member function 'std::unique_ptr<eka2l1::common::ro_stream>::reset' requested here
+  269 |   _LIBCPP_HIDE_FROM_ABI _LIBCPP_CONSTEXPR_SINCE_CXX23 ~unique_ptr() { reset(); }
+      |                                                                       ^
+/Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/dispatch/src/video.cpp:40:24: note: in instantiation of member function 'std::unique_ptr<eka2l1::common::ro_stream>::~unique_ptr' requested here
+   40 |     epoc_video_player::epoc_video_player(drivers::graphics_driver *grdrv, drivers::audio_driver *auddrv)
+      |                        ^
+1 warning generated.
+[942/968] Building CXX object src/emu/dispatch/CMakeFiles/epocdispatch.dir/src/libraries/vg/gnuVG_context.cc.o
+/Users/runner/work/SymbOS/SymbOS/external/eka2l1/src/emu/dispatch/src/libraries/vg/gnuVG_context.cc:1566:8: warning: comparison of different enumeration types in switch statement ('VGPaintMode' and 'VGColorRampSpreadMode') [-Wenum-compare-switch]
+ 1565 |                 switch(pipeline_mode) {
+      |                        ~~~~~~~~~~~~~
+ 1566 |                 case VG_COLOR_RAMP_SPREAD_MODE_FORCE_SIZE:
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+[943/968] Building CXX object src/emu/dispatch/CMakeFiles/epocdispatch.dir/src/libraries/vg/gnuVG_emuutils.cc.o
+[944/968] Building CXX object src/emu/dispatch/CMakeFiles/epocdispatch.dir/src/libraries/vg/gnuVG_filter.cc.o
+[945/968] Building CXX object src/emu/dispatch/CMakeFiles/epocdispatch.dir/src/libraries/vg/gnuVG_font.cc.o
+[946/968] Building CXX object src/emu/dispatch/CMakeFiles/epocdispatch.dir/src/register.cpp.o
+[947/968] Building CXX object src/emu/dispatch/CMakeFiles/epocdispatch.dir/src/libraries/vg/gnuVG_image.cc.o
+[948/968] Building CXX object src/emu/dispatch/CMakeFiles/epocdispatch.dir/src/libraries/vg/gnuVG_mask.cc.o
+[949/968] Building CXX object src/emu/dispatch/CMakeFiles/epocdispatch.dir/src/libraries/vg/gnuVG_math.cc.o
+[950/968] Building CXX object src/emu/dispatch/CMakeFiles/epocdispatch.dir/src/libraries/vg/gnuVG_memclasses.cc.o
+[951/968] Building CXX object src/emu/dispatch/CMakeFiles/epocdispatch.dir/src/libraries/vg/gnuVG_object.cc.o
+[952/968] Building CXX object src/emu/dispatch/CMakeFiles/epocdispatch.dir/src/libraries/vg/gnuVG_paint.cc.o
+[953/968] Building CXX object src/emu/dispatch/CMakeFiles/epocdispatch.dir/src/libraries/vg/gnuVG_path.cc.o
+[954/968] Building CXX object src/emu/dispatch/CMakeFiles/epocdispatch.dir/src/libraries/vg/gnuVG_shaderman.cc.o
+[955/968] Building CXX object src/emu/dispatch/CMakeFiles/epocdispatch.dir/src/libraries/vg/gnuVG_shader.cc.o
+[956/968] Linking CXX static library src/emu/gdbstub/libgdbstub.a
+[957/968] Building CXX object src/emu/dispatch/CMakeFiles/epocdispatch.dir/src/libraries/vg/gnuVG_vgu.cc.o
+[958/968] Building CXX object src/emu/dispatch/CMakeFiles/epocdispatch.dir/src/libraries/vg/gnuVG_simplified_path.cc.o
+[959/968] Building CXX object src/emu/ios/CMakeFiles/eka2l1_ios_bridge.dir/src/applauncher.mm.o
+[960/968] Linking CXX static library src/emu/dispatch/libepocdispatch.a
+[961/968] Building CXX object src/emu/ios/CMakeFiles/eka2l1_ios_bridge.dir/src/emu_window_ios.cpp.o
+[962/968] Building CXX object src/emu/ios/CMakeFiles/eka2l1_ios_bridge.dir/src/input_dialog.cpp.o
+[963/968] Building CXX object src/emu/ios/CMakeFiles/eka2l1_ios_bridge.dir/src/emu_bridge.mm.o
+[964/968] Building CXX object src/emu/ios/CMakeFiles/eka2l1_ios_bridge.dir/src/launcher.cpp.o
+[965/968] Building CXX object src/emu/ios/CMakeFiles/eka2l1_ios_bridge.dir/src/thread.cpp.o
+[966/968] Building CXX object src/emu/ios/CMakeFiles/eka2l1_ios_bridge.dir/src/state.cpp.o
+[967/968] Linking CXX static library src/emu/ios/libeka2l1_ios_bridge.a
+Merging 48 archives into libHalcyonCore.a
+Wrote /Users/runner/work/SymbOS/SymbOS/apple/Config/Core-ios.xcconfig
+Core for ios: /Users/runner/work/SymbOS/SymbOS/core/out/ios
+total 115800
+drwxr-xr-x  5 runner  staff       160 Oct 14 23:50 .
+drwxr-xr-x  4 runner  staff       128 Oct 14 23:50 ..
+drwxr-xr-x  5 runner  staff       160 Oct 14 23:50 assets
+drwxr-xr-x  4 runner  staff       128 Oct 14 23:50 include
+-rw-r--r--  1 runner  staff  59285784 Oct 14 23:50 libHalcyonCore.a
