@@ -65,3 +65,9 @@ SymbOS does not include, download or link to firmware, ROMs or commercial Symbia
 GPL-3.0-or-later, the same as EKA2L1. See [LICENSE](LICENSE) and [NOTICE.md](NOTICE.md).
 
 SymbOS is not affiliated with or endorsed by Nokia, HMD Global, Accenture or Apple. Symbian and Nokia are trademarks of their respective owners.
+
+## Support
+
+If you enjoy this project, you can support me here:
+
+<a href="https://buymeacoffee.com/harkhowalia"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-orange.png" alt="Buy me a coffee" height="50"></a>
