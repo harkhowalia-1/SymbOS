@@ -45,11 +45,35 @@ targetTemplates:
             UTTypeConformsTo: [public.data]
             UTTypeTagSpecification:
               public.filename-extension: [sisx, SISX]
+          - UTTypeIdentifier: io.github.halcyon.symbian-rom
+            UTTypeDescription: Symbian phone ROM
+            UTTypeConformsTo: [public.data]
+            UTTypeTagSpecification:
+              public.filename-extension: [rom, ROM]
+          - UTTypeIdentifier: io.github.halcyon.rpkg
+            UTTypeDescription: "Symbian Z: drive package"
+            UTTypeConformsTo: [public.data]
+            UTTypeTagSpecification:
+              public.filename-extension: [rpkg, RPKG]
+          - UTTypeIdentifier: io.github.halcyon.vpl
+            UTTypeDescription: Symbian firmware manifest
+            UTTypeConformsTo: [public.data]
+            UTTypeTagSpecification:
+              public.filename-extension: [vpl, VPL]
         CFBundleDocumentTypes:
           - CFBundleTypeName: Symbian installation package
             CFBundleTypeRole: Viewer
             LSHandlerRank: Owner
             LSItemContentTypes: [io.github.halcyon.sis-package, io.github.halcyon.sisx-package]
+          - CFBundleTypeName: Symbian phone firmware
+            CFBundleTypeRole: Viewer
+            LSHandlerRank: Owner
+            LSItemContentTypes: [io.github.halcyon.symbian-rom, io.github.halcyon.rpkg, io.github.halcyon.vpl]
+          # Lets "Open in Halcyon" accept a .zip holding the ROM and RPKG.
+          - CFBundleTypeName: Zip archive
+            CFBundleTypeRole: Viewer
+            LSHandlerRank: Alternate
+            LSItemContentTypes: [public.zip-archive]
         ITSAppUsesNonExemptEncryption: false
     settings:
       base:

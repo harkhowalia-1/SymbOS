@@ -32,6 +32,8 @@ struct HalcyonApp: App {
     private func open(_ url: URL) {
         if let link = DeepLink(url: url) {
             controller.handle(link)
+        } else if url.isFileURL, FirmwareImporter.isFirmwareFile(url) {
+            FirmwareImporter.shared.importFiles([url])
         } else if url.isFileURL {
             // "Open in Halcyon" from Files, Safari or Mail.
             controller.install(packages: [url])

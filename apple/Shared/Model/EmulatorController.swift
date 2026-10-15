@@ -128,6 +128,8 @@ final class EmulatorController: ObservableObject {
                         self.launch(uid: uid)
                     }
                 }
+                // Install firmware waiting in the Firmware Inbox (works with or without a device).
+                FirmwareImporter.shared.processInbox()
             }
         }
     }
@@ -255,6 +257,8 @@ final class EmulatorController: ObservableObject {
         if phase == .ready, isShowingApp || UserDefaults.standard.bool(forKey: "fullSymbianMode") {
             emulator.resume()
         }
+        // The user may have dropped firmware into the inbox from the Files app or Finder.
+        FirmwareImporter.shared.processInbox()
     }
 
     // MARK: Installing apps
@@ -312,30 +316,44 @@ final class EmulatorController: ObservableObject {
 
     // MARK: Firmware
 
-    func installFirmware(rom: URL, rpkg: URL?) {
+    /// Install firmware. `alreadyLocal` skips the temporary copy for files that are
+    /// already inside the app's container (the Firmware Inbox), which matters for
+    /// RPKGs of several hundred MB. `completion` gets (succeeded, error message);
+    /// "already installed" counts as success.
+    func installFirmware(rom: URL, rpkg: URL?, alreadyLocal: Bool = false,
+                         completion: (@MainActor (Bool, String?) -> Void)? = nil) {
         busyMessage = "Installing firmware…"
         work.async { [emulator] in
-            let localROM = Self.copyToTemporary(rom)
-            let localRPKG = rpkg.flatMap(Self.copyToTemporary)
+            let localROM = alreadyLocal ? rom : Self.copyToTemporary(rom)
+            let localRPKG = alreadyLocal ? rpkg : rpkg.flatMap(Self.copyToTemporary)
             var code: Int32 = -1
             if let localROM {
                 code = emulator.installDeviceROM(localROM.path, rpkg: localRPKG?.path) { percent in
                     Task { @MainActor in self.busyMessage = "Installing firmware… \(percent)%" }
                 }
             }
-            [localROM, localRPKG].compactMap { $0 }.forEach { try? FileManager.default.removeItem(at: $0) }
+            if !alreadyLocal {
+                [localROM, localRPKG].compactMap { $0 }.forEach { try? FileManager.default.removeItem(at: $0) }
+            }
             let result = code
+            let hasDevice = emulator.hasDevice
             Task { @MainActor in
                 self.busyMessage = nil
-                if result == 0 {
+                if result == 0 || (result == 5 && hasDevice) {
                     self.phase = .ready
                     self.applyDeviceSettings()
                     self.refreshApps()
                     self.startFPSSampling()
+                    completion?(true, nil)
                 } else {
-                    self.phase = .needsFirmware
-                    self.installResult = InstallResult(fileName: rom.lastPathComponent, succeeded: false,
-                                                       message: Self.firmwareError(result), newApps: [])
+                    if !hasDevice { self.phase = .needsFirmware }
+                    let message = Self.firmwareError(result)
+                    if let completion {
+                        completion(false, message)
+                    } else {
+                        self.installResult = InstallResult(fileName: rom.lastPathComponent, succeeded: false,
+                                                           message: message, newApps: [])
+                    }
                 }
             }
         }

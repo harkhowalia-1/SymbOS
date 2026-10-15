@@ -98,7 +98,7 @@ struct SettingsView: View {
         .frame(minWidth: 460, minHeight: 560)
         #endif
         .sheet(isPresented: $showingFirmwareSetup) {
-            FirmwareSetupView()
+            FirmwareSetupView(presentedAsSheet: true)
                 .environmentObject(controller)
         }
     }

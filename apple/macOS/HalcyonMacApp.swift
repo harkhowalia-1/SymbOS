@@ -55,6 +55,8 @@ struct HalcyonMacApp: App {
     private func open(_ url: URL) {
         if let link = DeepLink(url: url) {
             controller.handle(link)
+        } else if url.isFileURL, FirmwareImporter.isFirmwareFile(url) {
+            FirmwareImporter.shared.importFiles([url])
         } else if url.isFileURL {
             controller.install(packages: [url])
         }
