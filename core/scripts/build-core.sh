@@ -61,7 +61,9 @@ COMMON_ARGS=(
     -DDYNARMIC_FATAL_ERRORS=OFF
     -DDYNARMIC_USE_PRECOMPILED_HEADERS=OFF
     -DCMAKE_C_FLAGS="-Wno-macro-redefined"
-    -DCMAKE_CXX_FLAGS="-Wno-macro-redefined"
+    # Xcode 26's libc++ dropped std::unary_function, which the bundled Boost (used by
+    # Dynarmic) still needs. The iOS port sets this for iOS only; the Mac needs it too.
+    -DCMAKE_CXX_FLAGS="-Wno-macro-redefined -D_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION -D_HAS_AUTO_PTR_ETC=0"
 )
 
 case "${PLATFORM}" in
