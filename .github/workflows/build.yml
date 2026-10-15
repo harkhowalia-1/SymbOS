@@ -90,7 +90,8 @@ jobs:
 
       - name: Cache key
         id: key
-        run: echo "key=core-$(git rev-parse HEAD:external/eka2l1)-${{ hashFiles('core/**') }}" >> "$GITHUB_OUTPUT"
+        # Only the files that change what the core build produces.
+        run: echo "key=core-$(git rev-parse HEAD:external/eka2l1)-${{ hashFiles('core/embed/**', 'core/scripts/build-core.sh', 'core/scripts/build-ffmpeg.sh', 'core/scripts/patch-core.py') }}" >> "$GITHUB_OUTPUT"
 
       # Built once per core change and cached on its own, so app-only changes
       # never wait for the core.

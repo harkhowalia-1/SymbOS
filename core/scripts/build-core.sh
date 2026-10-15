@@ -57,6 +57,12 @@ COMMON_ARGS=(
     -DCMAKE_POLICY_VERSION_MINIMUM=3.5
     # The iOS port defines FMT_USE_CONSTEVAL=0 for Xcode 26 and fmt 10 defines it again;
     # harmless, but Dynarmic's strict flags and precompiled headers made it fatal.
+    # FreeType would otherwise pick up libpng/brotli/bzip2 from Homebrew on the build Mac,
+    # which the shipped app can't load. Fonts in Symbian firmware don't need them.
+    -DFT_DISABLE_PNG=ON
+    -DFT_DISABLE_BROTLI=ON
+    -DFT_DISABLE_BZIP2=ON
+    -DFT_DISABLE_HARFBUZZ=ON
     -DDYNARMIC_WARNINGS_AS_ERRORS=OFF
     -DDYNARMIC_FATAL_ERRORS=OFF
     -DDYNARMIC_USE_PRECOMPILED_HEADERS=OFF
